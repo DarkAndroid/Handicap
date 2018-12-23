@@ -1,4 +1,4 @@
-	// set up a simple neutral simulation
+// set up a simple neutral simulation
 initialize() {
 	initializeMutationRate(1e-7);
 	
