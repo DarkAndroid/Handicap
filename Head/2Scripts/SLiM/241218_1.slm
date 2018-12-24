@@ -1,0 +1,31 @@
+initialize() { 
+initializeMutationRate(1e-8);  
+initializeMutationType("m1", 0.5, "f", 0.0); initializeMutationType("m2", 0.5, "f", 0.1); initializeMutationType("m3", 0.5, "f", 0.1); 
+initializeMutationType("m4", 0.5, "f", 0.1); 
+initializeMutationType("m5", 0.5, "f", 0.1); initializeGenomicElementType("g1", m1, 1);  initializeGenomicElementType("g2", m2, 1); initializeGenomicElementType("g3", m3, 1); 
+initializeGenomicElementType("g4", m4, 1); 
+initializeGenomicElementType("g5", m5, 1); initializeGenomicElement(g1, 0, 9999);  
+initializeGenomicElement(g2, 10000, 19999);  initializeGenomicElement(g1, 20000, 29999);  initializeGenomicElement(g3, 30000, 39999);  
+initializeGenomicElement(g4, 40000, 49999); 
+initializeGenomicElement(g5, 50000, 59999); 
+initializeGenomicElement(g1, 60000, 69999);  initializeRecombinationRate(1e-8); 
+} 
+1 { sim.addSubpop("p1", 500); }  10000 { sim.simulationFinished(); }  
+fitness(m3) { 
+if (genome1.countOfMutationsOfType(m2))  return 0.5; 
+else if (genome2.countOfMutationsOfType(m2))  return 0.5;  
+else 
+return relFitness; 
+}
+fitness(m4) { 
+if (genome1.countOfMutationsOfType(m3))  return 0.5; 
+else if (genome2.countOfMutationsOfType(m3))  return 0.5;  
+else 
+return relFitness; 
+}
+fitness(m5) { 
+if (genome1.countOfMutationsOfType(m4))  return 0.5; 
+else if (genome2.countOfMutationsOfType(m4))  return 0.5;  
+else 
+return relFitness; 
+}
