@@ -1,0 +1,18 @@
+// Initial random seed:
+1612569024624
+
+// RunInitializeCallbacks():
+initializeSLiMOptions(dimensionality = 'xy');
+initializeMutationRate(1e-07);
+initializeMutationType(1, 0.5, "f", 0);
+initializeGenomicElementType(1, m1, 1);
+initializeGenomicElement(g1, 0, 99999);
+initializeRecombinationRate(1e-08);
+initializeInteractionType(1, "xy", reciprocal=T, maxDistance=0.3);
+initializeInteractionType(2, "xy", reciprocal=T, maxDistance=0.1);
+
+// Starting run at generation <start>:
+1 
+
+#OUT: 2000 F
+Mutations:

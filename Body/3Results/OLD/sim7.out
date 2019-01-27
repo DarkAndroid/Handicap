@@ -1,0 +1,27 @@
+// Initial random seed:
+1575855414681
+
+// RunInitializeCallbacks():
+initializeMutationRate(1e-07);
+initializeMutationType(1, 0.5, "f", 0);
+initializeMutationType(2, 0.5, "f", -0.005);
+initializeGenomicElementType(1, c(m1, m2), c(1, 0.1));
+initializeGenomicElement(g1, 0, 99999);
+initializeRecombinationRate(1e-08);
+
+// Starting run at generation <start>:
+1 
+
+#OUT: 10000 T p1 98999 m2 94876 -0.005 0.5 p1 9876 19
+#OUT: 10000 T p1 99700 m2 70531 -0.005 0.5 p1 9942 5
+#OUT: 10000 T p1 99762 m2 99943 -0.005 0.5 p1 9950 5
+#OUT: 10000 T p1 99837 m2 36816 -0.005 0.5 p1 9955 7
+#OUT: 10000 T p1 99869 m2 45090 -0.005 0.5 p1 9959 2
+#OUT: 10000 T p1 99913 m2 76383 -0.005 0.5 p1 9964 16
+#OUT: 10000 T p1 99973 m2 8212 -0.005 0.5 p1 9970 13
+#OUT: 10000 T p1 100127 m2 23188 -0.005 0.5 p1 9984 3
+#OUT: 10000 T p1 100193 m2 44399 -0.005 0.5 p1 9990 15
+#OUT: 10000 T p1 100250 m2 76762 -0.005 0.5 p1 9995 1
+#OUT: 10000 T p1 100254 m2 95644 -0.005 0.5 p1 9996 3
+#OUT: 10000 T p1 100261 m2 93684 -0.005 0.5 p1 9996 2
+#OUT: 10000 T p1 100282 m2 51098 -0.005 0.5 p1 9999 1

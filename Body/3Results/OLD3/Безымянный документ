@@ -1,0 +1,60 @@
+SIMULATION #0 :: 10000 : 9999 : 1e-05 
+
+// Initial random seed:
+1621178684688
+
+// RunInitializeCallbacks():
+initializeMutationRate(1e-07);
+initializeMutationType(1, 0.5, "f", -1e-05);
+initializeGenomicElementType(1, m1, 1);
+initializeGenomicElement(g1, 0, 9999);
+initializeRecombinationRate(1e-08);
+
+// Starting run at generation <start>:
+1 
+
+SIMULATION #1 :: 10000 : 9999 : 0.0001 
+
+// Initial random seed:
+1622109416689
+
+// RunInitializeCallbacks():
+initializeMutationRate(1e-07);
+initializeMutationType(1, 0.5, "f", -0.0001);
+initializeGenomicElementType(1, m1, 1);
+initializeGenomicElement(g1, 0, 9999);
+initializeRecombinationRate(1e-08);
+
+// Starting run at generation <start>:
+1 
+
+SIMULATION #2 :: 10000 : 9999 : 0.001 
+
+// Initial random seed:
+1622639954573
+
+// RunInitializeCallbacks():
+initializeMutationRate(1e-07);
+initializeMutationType(1, 0.5, "f", -0.001);
+initializeGenomicElementType(1, m1, 1);
+initializeGenomicElement(g1, 0, 9999);
+initializeRecombinationRate(1e-08);
+
+// Starting run at generation <start>:
+1 
+
+SIMULATION #3 :: 10000 : 9999 : 0.01 
+
+// Initial random seed:
+1622980344621
+
+// RunInitializeCallbacks():
+initializeMutationRate(1e-07);
+initializeMutationType(1, 0.5, "f", -0.01);
+initializeGenomicElementType(1, m1, 1);
+initializeGenomicElement(g1, 0, 9999);
+initializeRecombinationRate(1e-08);
+
+// Starting run at generation <start>:
+1 
+
