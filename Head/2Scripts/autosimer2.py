@@ -8,7 +8,7 @@ import shutil
 import numpy as np
 import matplotlib.pyplot as plt
 
-mrts = ["1e-09","1e-08","1e-07","1e-06"] # 1e-7 или 0.0000001 => от 1/kkk до 1/100
+mrts = ["1e-09","1e-08","1e-07"] # 1e-7 или 0.0000001 => от 1/kkk (1e-06 peregruzka po pamyati)
 eps = [0.00001,0.0001,0.001,0.01]
 gszs = [9999]
 pszs = [10000]
