@@ -1,0 +1,2 @@
+python handicap.py
+pause
