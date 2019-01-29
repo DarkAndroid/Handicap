@@ -132,6 +132,8 @@ for p in pszs:
                 #print (ppltn)
 
 
+
+                
     
                 fig = plt.figure()
                 '''
@@ -142,19 +144,30 @@ for p in pszs:
                 x = ppltn[:,0]
                 y = ppltn[:,1]
     
+
+
+
+                # DotPlot
                 plt.scatter(x=x, y=y, marker='o', c='r', edgecolor='b')
                 plt.title('Sim%s: $pop:%s$ $gnm:%s$ $sel:%s$ $mtrt:%s$' % (n,p,g+1,e,m))
                 plt.xlabel('$Population$ $(every$ $hundredth)$')
                 plt.ylabel('$Average$ $number$ $of$ $mutations$')
-    
-                plt.savefig('sim%s.png' % n)
-    
-                pgen.close()
+                plt.savefig('sim%sdot.png' % n, dpi = 300)
+                plt.close()
+
+
+
+                # LinePlot
+                plt.plot(x, y, lw = 1, color = '#539caf', alpha = 1)
+                plt.title('Sim%s: $pop:%s$ $gnm:%s$ $sel:%s$ $mtrt:%s$' % (n,p,g+1,e,m))
+                plt.xlabel('$Population$ $(every$ $hundredth)$')
+                plt.ylabel('$Average$ $number$ $of$ $mutations$')
+                plt.savefig('sim%sline.png' % n, dpi = 300)
                 plt.close()  
 
 
 
-
+                pgen.close()
 
                 n = n + 1
 
