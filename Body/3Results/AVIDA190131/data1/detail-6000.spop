@@ -1,0 +1,330 @@
+#filetype genotype_data
+#format id src src_args parents num_units total_units length merit gest_time fitness gen_born update_born update_deactivated depth hw_type inst_set sequence cells gest_offset lineage 
+# Structured Population Save
+# Thu Jan 31 20:05:55 2019
+#  1: ID
+#  2: Source
+#  3: Source Args
+#  4: Parent ID(s)
+#  5: Number of currently living organisms
+#  6: Total number of organisms that ever existed
+#  7: Genome Length
+#  8: Average Merit
+#  9: Average Gestation Time
+# 10: Average Fitness
+# 11: Generation Born
+# 12: Update Born
+# 13: Update Deactivated
+# 14: Phylogenetic Depth
+# 15: Hardware Type ID
+# 16: Inst Set Name
+# 17: Genome Sequence
+# 18: Occupied Cell IDs
+# 19: Gestation (CPU) Cycle Offsets
+# 20: Lineage Label
+
+18170 div:int (none) 17895 1 1 98 0 0 0 560 5992 -1 126 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykmrnkqzxtdxcfklqaajcxprlzczvfcaxuab 32 266 0 
+18124 div:int (none) 17647 2 3 98 744 353 2.10765 560 5979 -1 125 0 heads_default wzcagcpmexwlcsbrspwxjrqndbtvvwpyclututjojtyueubcyvptcbqyfwcypmskmdukjvnvdtvcflqunjcxpnqzczvfcaxgab 46,57 49,46 0,0 
+18193 div:int (none) 18158 1 1 101 0 0 0 561 6000 -1 126 0 heads_default wzcagcsdexdgcsbbcdspxjrqndbavvhhpycpurquvjoqtyuubcyvptjdqbftbypcjkmdukjvxvdtcbcklqanjcxpnqzczvfcaxgab 58 14 0 
+18078 div:int (none) 17961 4 5 96 704 334 2.10778 557 5962 -1 124 0 heads_default wzcagcolexwgcsbcspxprvufbcevwpycputvuvjoqtyuubcyvptcdqyfccypcikmqukjdvdavckblanjcrpnqzczvfcaxgab 63,64,72,73 273,240,273,273 0,0,0,0 
+17894 div:int (none) 17838 1 6 97 712 337 2.11276 553 5906 -1 125 0 heads_default wzcagcwmexwgcsbcnpxjrvnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmquwjvnvdtnckbqanqcrvnqzczvfcaxgab 92 75 0 
+18194 div:int (none) 18123 1 1 98 0 0 0 562 6000 -1 127 0 heads_default wzcagcwmexwgcsbcnpxorvnxfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmquwjvnvdtnckbqanqcrvnqzhzvfcaxgab 0 33 0 
+18171 div:int (none) 18102 1 1 99 0 0 0 560 5993 -1 127 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykomrnkqvxtdxcyklqaajcxprlzczvfcaxgab 22 301 0 
+18102 div:int (none) 17895 1 1 99 736 354 2.0791 558 5971 -1 126 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykomrnkqvxtdxcfklqaajcxprlzczvfcaxgab 23 300 0 
+17895 div:int (none) 17423 1 5 98 728 350 2.08 552 5906 -1 125 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykmrnkqvxtdxcfklqaajcxprlzczvfcaxgab 33 266 0 
+18056 div:int (none) 18017 1 2 99 94 363 0.258953 557 5955 -1 129 0 heads_default wzcagcsmeqwgcjiqspxsrqndibalvwpyyputvuekoqtyuubcytptydqsfcyypcykmzukjvnvdtbuklqandcxpnqzcmzvfcaxgab 66 170 0 
+18103 div:int (none) 17977 1 1 100 97 361 0.268698 560 5972 -1 130 0 heads_default wzcagcpmeywlcsbrsrwojrqndbavvwzyilutvutjojtyueulcyvptcbjyxccqypmskmdukjvsvdtvcfuqunjcxpnqzczvfcaxgab 6 109 0 
+17873 div:int (none) 17840 1 2 98 182 345 0.527536 553 5897 -1 127 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojfyuubcyvptfdqyfccypcskmdukadnvhtvcolqunjcxpnqzczvfcaxgab 38 165 0 
+18011 div:int (none) 17741 1 3 98 728 350 2.08 555 5942 -1 126 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvwtcdqkfccywcykmrnkqvxtdxcfklqanjcxprlzczvfcaxgab 53 266 0 
+17942 div:int (none) 17820 4 10 99 752 356 2.11236 554 5923 -1 123 0 heads_default wzcagcsmexdgcsbcdspxjrqndbavvwhpycputquvjoqtywuubcyvptcdqyftbypjkmdukjvlvdtccklqanjcxpnqzczvfcaxgab 67,78,88,89 137,170,137,137 0,0,0,0 
+18057 div:int (none) 17942 1 2 99 93 356 0.261236 557 5956 -1 124 0 heads_default wzcagcsmexdgcsbcdspxjrqndbavvwhpywputquvjoqtywuubcyvptcdqyftbypjkmdukjvlvdtccklqanjcxpnqzczvfcaxgab 79 170 0 
+18195 div:int (none) 17977 1 1 101 0 0 0 563 6000 -1 130 0 heads_default wzcagcpmeywlcsbrsrwojrqndbavvwzyclutvutjojtwyueulcyvptcbjyxccqypmskmdukjvsvdtvcfuqunjcxpnqzczvfcaxgab 94 25 0 
+17621 div:int (none) 17559 2 18 101 768 364 2.10989 543 5813 -1 123 0 heads_default wzcagcsdexdgcsbbcsspxjrqndbavvuhpycputquvjoqtyuubcyvptjdqbftbypcjkmdukjvxvdtcbcklqanjcxpnqzczvfcaxgab 8,80 238,238 0,0 
+18150 div:int (none) 17993 2 2 100 92 349 0.26361 560 5988 -1 128 0 heads_default wzcagcsdexdgcsbcpspxjhqndbavvuhpycputquvdoqtyuubcyvptjvqyfpbypvjkmdukjvxvdvcbcylnanjcxpnqzczvfcaxgab 12,21 13,33 0,0 
+18173 div:int (none) 18136 1 1 96 0 0 0 560 5993 -1 126 0 heads_default wzcagcolexwgcsbcspxprvufbrevwpycputvuvjoqtyuubcyvptcdqyfccyicikmquojdvdtvckbqsnjcrpnqzczvfcaxgab 83 274 0 
+18128 div:int (none) 18096 1 1 99 0 0 0 560 5980 -1 130 0 heads_default vzcagcsmexwlcybrswxjeqndbtvvwpyclutvuvjojtyuubcyvptckqyfccopcskmdukjvnutftvcwoliunjcxpnqiczvfcaxgab 35 662 0 
+18174 div:int (none) 18011 1 1 99 0 0 0 560 5994 -1 127 0 heads_default wzcagcsmexwgcpgcsnxjrqnybavvwhtycputvuvjoqutyuubcyvwtcdqkfccywcykmrnkqvxtdxcfklqanjcxprlzczvfcaxgab 62 233 0 
+18083 div:int (none) 17908 2 3 96 704 333 2.11411 558 5964 -1 123 0 heads_default wzcagcomexwgcscspxjrvufbavvwpycputvuvjoqtyuubcyvpdcdqyfccdpcikmqukjvnvdtvckbqanjcrpnqpczvfcaxgab 10,29 206,239 0,0 
+18175 div:int (none) 17908 1 1 96 0 0 0 561 5994 -1 123 0 heads_default wzcagcomexwgcscspxjrvuffavvwpycputvuvjoqtyuubmyvptcdqyfccypcikmqukjvnvdtvckbqanjcrpnqpczvfcaxgab 59 240 0 
+18152 div:int (none) 18091 1 1 97 712 337 2.11276 561 5988 -1 127 0 heads_default wzcagcwmexwgcsbcnpxjjvnfbavvwpycputvuvjoqtyuubcyvpbcdqyfccypcikmquwjvbvdtnckbqanqcrvnqzczvfcaxgab 93 75 0 
+17923 div:int (none) 17423 1 4 98 728 349 2.08596 553 5917 -1 125 0 heads_default wzcagcsmexwgcpgcsaxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykmrnkqvxtdxcfklqanjcxprlzczvfcaxgab 2 298 0 
+18176 div:int (none) 18083 1 1 95 0 0 0 561 5994 -1 124 0 heads_default wzcagcomexwgcscspxjrvufbavvwpycputvuvjoqtyuubcyvpdcdqyccdpcikmqukjvnvdtvckbqanjcrpnqpczvfcaxgab 28 239 0 
+18130 div:int (none) 18001 1 1 102 776 368 2.1087 559 5981 -1 125 0 heads_default wzcagcsdexdgcsbbcsspxjrqndbavvuhpycputquvjoqtyuubcyvptjdqnftbypcjkmdukjvxvdtcbcklrqanjcxpnqzczvfcaxgab 97 367 0 
+18154 div:int (none) 18114 2 2 98 720 341 2.11144 561 5989 -1 128 0 heads_default wzcagcwmexwgcsjcnpxjjvnfbavvwpycputvuvjoqtyuubcyvpitcdqyfccypcikmquwjvbvdtnckbqanqcrvnqzczvfcaxgab 3,13 109,142 0,0 
+17993 div:int (none) 17796 2 6 100 768 352 2.18182 555 5936 -1 127 0 heads_default wzcagcsdexdgcsbcpspxjrqndbavvuhpycputquvdoqtyuubcyvptjvqyfpbypvjkmdukjvxvdvcbcylnanjcxpnqzczvfcaxgab 30,39 106,106 0,0 
+18177 div:int (none) 18109 1 1 98 0 0 0 562 5994 -1 130 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfcsypcskmdukavnvhtvcflqunjcapnqzczvfcaxgkb 52 245 0 
+18131 div:int (none) 18100 1 1 102 768 367 2.09264 559 5981 -1 126 0 heads_default wzcagcsdexdgcsbbcsspxjrqndbavvuhpycputquvjoqtyuubcyvptjdqbftbypcjpmdukjvxvdtcbcklroanjcxpnqzczvfcaxgab 77 366 0 
+18155 div:int (none) 17647 1 1 99 0 0 0 561 5989 -1 125 0 heads_default izcagcpmexwlcnbrspwxjrqndbavvwpyclutjutjojtyueubcyvptcbqyfwcypmskmdukjvnvdtvcflqunjcxpnqzczvfcaxgab 27 455 0 
+18109 div:int (none) 17857 1 1 98 744 344 2.16279 560 5974 -1 129 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfcsypcskmdukavnvhtvcflqunjcapnqzczvfcaxgab 41 245 0 
+18132 div:int (none) 17895 1 1 98 728 350 2.08 559 5981 -1 126 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccybcykmrnkqvxtdxcfklqaajcxprlzczvfcaxgab 44 332 0 
+18178 div:int (none) 17621 1 1 101 0 0 0 560 5994 -1 124 0 heads_default wzcagcsdexdgcsbbcsspxjrqndbavvuhpycputquvjoqtyuubcyvptjdqbftbypcjksdukjvxvdtcbcklqanjcxpnqzczvfcaxgab 71 238 0 
+18179 div:int (none) 17621 1 1 101 0 0 0 560 5994 -1 124 0 heads_default wzcagcsdexdgcsbbcsspxjrqndbavvuhpycputquvjoqtyuubcyvptjdqbftbypcjnmdukjvxvdtcbcklqanjcxpnqzczvfcaxgab 19 271 0 
+17857 div:int (none) 17827 4 11 98 736 343 2.14577 552 5893 -1 128 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmdukavnvhtvcflqunjcapnqzczvfcaxgab 31,40,42,51 243,144,243,177 0,0,0,0 
+18064 div:int (none) 18027 1 5 99 768 353 2.17564 558 5958 -1 127 0 heads_default wzcagcpmexwlcsbrspwxjrqndbavvwpyclutvutjojtyueubiyvptcbqyowcyvmsktdukjvnvdtvcflqwnjcxpnqzczvfcaxgab 45 140 0 
+17903 div:int (none) 17741 3 13 98 728 350 2.08 552 5909 -1 126 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqkfccywcykmrukqvxtdxcfklqanjcxprlzczvfcaxgab 69,82,91 233,266,266 0,0,0 
+18133 div:int (none) 18078 2 2 97 356 338 1.05325 559 5982 -1 125 0 heads_default wzcagcolexwgcsbcspxprvufbcevwpycputvuvjsoqtyuubcyvptcdqyfccypcikmqukjdvdavckblanjcrpnqzczvfcaxgab 74,84 208,175 0,0 
+18180 div:int (none) 18083 1 1 97 0 0 0 561 5995 -1 124 0 heads_default wzcagcooexwgcscspxjrvufbavvwpycputvuvjoqtyuubrcyvpdcdqyfccdpcikmqukjvnvdtvckbqanjcrpnqpczvfcaxgab 11 206 0 
+18157 div:int (none) 18122 2 2 99 728 349 2.08596 561 5989 -1 131 0 heads_default wzcagcsmwfwlcybrswxjeqndbtvvwpyclutvuvjojtyuubcyvptckqifccopcskmdukjvnuftvcwoliinjcxpqnqiczvfcaxgab 24,34 66,23 0,0 
+18111 div:int (none) 17857 1 1 98 0 0 0 560 5976 -1 129 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmdukavnvhtvcflqunjcapnqzczvfjaxgab 60 826 0 
+18134 div:int (none) 18110 1 1 100 0 0 0 561 5982 -1 131 0 heads_default vptcbjyxccqypmskmdukjvsvwtvcfuqunjcxpnqzczvfcsxgabwzcagcpmeywlcsbrsrwojrqndbzvvwlyclutvutjojtyueubcy 85 349 0 
+18181 div:int (none) 17857 1 1 98 0 0 0 562 5996 -1 129 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmduyavnvhtvcflqunjcapnqzczvfcaxgab 50 185 0 
+18159 div:int (none) 17977 2 2 100 768 359 2.13928 562 5990 -1 130 0 heads_default wzcagcpmeywlcsbrsrwojrqndbavvwzyclutvutjojtyueulcyvptcbjyxccqypmskmdukjvsvdtvcfuqunfcxpnqzczvfcaxgab 5,16 47,52 0,0 
+18182 div:int (none) 17909 1 1 98 0 0 0 562 5996 -1 129 0 heads_default wzcagcsmehwlfsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypgskmdukavnvhtvcflqunjcxpnkzczvfcaxgab 17 145 0 
+18044 div:int (none) 17994 1 2 100 752 453 1.66004 557 5951 -1 129 0 heads_default wzcagcpmexwlcsbrspwxzaqxdbavvwpyclutvutjojtyueubcyvptcbjyxccqypmfkmdukjvnkdtvcflqunjcxpnqzezvfcaxgab 75 336 0 
+18183 div:int (none) 17857 1 1 98 0 0 0 562 5996 -1 129 0 heads_default wzcagcsmexwlcsbrspwxnrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmdukavnvhtvcflqunjcapnqzczvfcaxgab 61 177 0 
+17908 div:int (none) 17613 1 6 96 704 333 2.11411 553 5911 -1 122 0 heads_default wzcagcomexwgcscspxjrvufbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmqukjvnvdtvckbqanjcrpnqpczvfcaxgab 48 239 0 
+18161 div:int (none) 18131 1 1 102 0 0 0 560 5990 -1 127 0 heads_default wzcagcjdexdgcsbbcsspxjrqndbavvuhpycputquvjoqtyuubcyvptjdqbftbypcjpmdukjvxvdtcbcklroanjcxpnqzczvfcaxgab 68 403 0 
+17977 div:int (none) 17852 1 4 100 776 360 2.15556 556 5932 -1 129 0 heads_default wzcagcpmeywlcsbrsrwojrqndbavvwzyclutvutjojtyueulcyvptcbjyxccqypmskmdukjvsvdtvcfuqunjcxpnqzczvfcaxgab 95 36 0 
+18184 div:int (none) 17942 1 1 99 0 0 0 561 5997 -1 124 0 heads_default wzcagcsmeldgcsbcdspxjrqndbavvwhpycputquvjoqtywuubcyvptcdqyftbypjkmdukjvlvdtccklqanjcxpnqzczvfcaxgab 99 170 0 
+18139 div:int (none) 18103 1 1 99 0 0 0 561 5983 -1 131 0 heads_default wzcagcpmeywlcsbrsrwojrqndbavvwzyilutvctjojtyueulcyvptcbjyxccqypmskmdukjvsvdtvcfuqunjcxpnqzczvcaxgab 15 76 0 
+18186 div:int (none) 17993 1 1 100 0 0 0 561 5998 -1 128 0 heads_default wzcagcsdexdgcsbcpspxjrqndbavvuhpycputquvdoqtyuubcyvpdjvqyfpbypvjkmdukjvxvdvcbcylnanjcxpnqzczvfcaxgab 49 106 0 
+18117 div:int (none) 17994 1 2 100 94 454 0.207048 559 5978 -1 129 0 heads_default wzcagcpmexwlcsbrspwxjrqxdbavvwpbclutvutjojtyueubcyvptcbjyxccqypmfkmdukjvnkdtvcflqunjcxpnqzezvfcaxgab 76 47 0 
+18141 div:int (none) 17621 1 2 101 384 363 1.05785 559 5984 -1 124 0 heads_default wzcagcsdexdgcsbgcsspxjrqndbavvuhpycputmuvjoqtyuubcyvptjdqbftbypcjkmdukjvxvdtcbcklqanjcxpnqzczvfcaxgab 70 138 0 
+18164 div:int (none) 18130 1 1 102 0 0 0 560 5991 -1 126 0 heads_default wzcagcsdexdgcsbbcssppjrqndbavvuhpycputquvjoqtyuubcyvptjdqnftbypcjkmdukjvxvdtcbcklrqanjcxpnqzczvfcaxgab 96 367 0 
+18119 div:int (none) 18094 2 3 98 728 349 2.08596 560 5979 -1 130 0 heads_default wzcagcsmexwlcsbrswxjeqndbtevwpyclutvuvjqjtyuubcyvptckqyfccopcqkmdukjvnuftvcwolixnjcxpnqiczvfcaxgab 7,18 64,67 0,0 
+18096 div:int (none) 18032 1 2 99 728 349 2.08596 559 5969 -1 129 0 heads_default wzcagcsmexwlcybrswxjeqndbtvvwpyclutvuvjojtyuubcyvptckqyfccopcskmdukjvnutftvcwoliunjcxpnqiczvfcaxgab 36 22 0 
+18188 div:int (none) 18064 1 1 98 0 0 0 562 5998 -1 128 0 heads_default wzcagcpmexwlcsbrspwxjrqndbavvwpyclutvutjojtyueubiyvptcbqyowcyvmsktdukjvnvdtvcflqwncxpnqzczvfcaxgab 47 106 0 
+18005 div:int (none) 17923 1 5 98 728 349 2.08596 555 5940 -1 126 0 heads_default wzcagcsmexwgcpgcsaxxrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykmrnkqvxtdxcfklqanjcxprlzczvfcaxgab 1 331 0 
+18189 div:int (none) 18118 1 1 99 0 0 0 560 5999 -1 129 0 heads_default wzcagcsdexdcsbdsspxjrqndbavvuhpycputquvdoftyuuscyvptjvqyfpbypvjkbdukjvxvdtcbcylnanjcxpnqzczvfcaxgab 9 38 0 
+18166 div:int (none) 18121 1 1 101 0 0 0 560 5991 -1 131 0 heads_default wzpcagcpmexwlcsbrspwxzaqxdbavvwpyclutvutjojtyueubcyvptcbnyxccqypmfkmdukjvnkdtvcflqunjcxpnqzezvfcaxgab 54 174 0 
+18121 div:int (none) 18044 1 1 100 376 453 0.830022 559 5979 -1 130 0 heads_default wzcagcpmexwlcsbrspwxzaqxdbavvwpyclutvutjojtyueubcyvptcbnyxccqypmfkmdukjvnkdtvcflqunjcxpnqzezvfcaxgab 65 204 0 
+18190 div:int (none) 17894 1 1 97 0 0 0 562 5999 -1 126 0 heads_default wzcagcwoexogcsbcnpxjrvnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypciktquwjvnvdtnckbqanqcrvnqzczvfcaxgab 81 75 0 
+18167 div:int (none) 18100 1 1 102 0 0 0 560 5991 -1 126 0 heads_default wzcagcsdexdgcsbbcsspxjrqndbavvuhpycputquvjoqtyuubcyvptsdqbftbypcjkmdukjvxvdtcbcklroanjcxpnqzczvfcaxgab 87 304 0 
+18122 div:int (none) 18065 2 2 98 720 345 2.08696 560 5979 -1 130 0 heads_default wzcagcsmwxwlcybrswxjeqndbtvvwpyclutvuvjojtyuubcyvptckqifccopcskmdukjvnuftvcwoliinjcxpnqiczvfcaxgab 14,25 23,23 0,0 
+18168 div:int (none) 17971 1 1 102 0 0 0 557 5992 -1 126 0 heads_default wzcagcsdexdgcsbbcsspxjrqndbavvuhpycpubqkuvjoqtyuubcuvptjdqbftbyecjkmdukjvxvdmcbcklqanjcxpnqzczvfcaxgab 26 171 0 
+18191 div:int (none) 18124 1 1 98 0 0 0 562 5999 -1 126 0 heads_default wzcagcpmexwlcsbrspwxjrqndbtvvwpyclututjojtyueubcyvptcbqyfwcypmskmdukjvnvdtvcflqbnjcxpnqzczvfcaxgab 37 71 0 
+18145 div:int (none) 17857 1 1 98 0 0 0 561 5985 -1 129 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmdukavnvhtvcflqunjcapnqzczvfcaxxab 43 563 0 
+18053 div:int (none) 17820 1 1 100 0 0 0 557 5955 -1 123 0 heads_default wzcagcsmexdgcsbcdspxjrqndbavvwhpycputquvfoqtywuubcyvptcdqyftbypcjkmdukjvlvdtccklqanjcxpnqzczpfcaxgab 98 1588 0 
+18192 div:int (none) 18152 1 1 97 0 0 0 562 5999 -1 128 0 heads_default wzcagcwmexwgcsbcnpxjjvnfbavvwpycputvuvjoqtyuubcyvpbcdqyfccypcikmquwjvbvdtjckbqanqcrvnqzczvfcaxgab 4 75 0 
+18054 div:int (none) 18020 1 1 98 0 0 0 558 5955 -1 130 0 heads_default zzcagcsmehwlfsbrspwxjrandbavvwzyclutvuvjojtluubcyvptfdqyfccypcskmdukavnvhtvcflqunjcbpnkzczvfcaxgab 20 442 0 
+18169 div:int (none) 18146 1 1 95 0 0 0 561 5992 -1 124 0 heads_default ptcdqyfccypcikmqukjvnvdtvckbqanjcronqpczvfcdxgabwzcagcomexwgcscspxjrvufavvwpycputvuvjoqtyuubcyv 55 153 0 
+18146 div:int (none) 17908 1 1 95 352 224 1.57143 560 5985 -1 123 0 heads_default wzcagcomexwgcscspxjrvufavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmqukjvnvdtvckbqanjcronqpczvfcdxgab 56 152 0 
+18100 div:int (none) 18001 1 1 102 776 367 2.11444 558 5971 -1 125 0 heads_default wzcagcsdexdgcsbbcsspxjrqndbavvuhpycputquvjoqtyuubcyvptjdqbftbypcjkmdukjvxvdtcbcklroanjcxpnqzczvfcaxgab 86 366 0 
+18123 div:int (none) 17894 1 1 97 712 338 2.10651 560 5979 -1 126 0 heads_default wzcagcwmexwgcsbcnpxjrvnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmquwjvnvdtnckbqanqcrvnqzhzvfcaxgab 90 32 0 
+18118 div:int (none) 18089 0 1 99 376 348 1.08046 559 5979 6000 128 0 heads_default wzcagcsdexdcsbcsspxjrqndbavvuhpycputquvdoftyuuscyvptjvqyfpbypvjkbdukjvxvdtcbcylnanjcxpnqzczvfcaxgab 
+18158 div:int (none) 17868 0 1 101 96 364 0.263736 560 5990 6000 125 0 heads_default wzcagcsdexdgcsbbcdspxjrqndbavvuhpycpurquvjoqtyuubcyvptjdqbftbypcjkmdukjvxvdtcbcklqanjcxpnqzczvfcaxgab 
+17983 div:int (none) 17852 0 5 100 776 360 2.15556 556 5933 5999 129 0 heads_default wzcagcpmeywlcsbrsrwojrqndbzvvwpyclutvutjojtyueubcyvptcbjyxccqypmskmdukjvsvdtvcfuqunjcxpnqzczvfcaxgab 
+17971 div:int (none) 17929 0 4 102 384 366 1.04918 554 5931 5999 125 0 heads_default wzcagcsdexdgcsbbcsspxjrqndbavvuhpycpubqkuvjoqtyuubcyvptjdqbftbyecjkmdukjvxvdtcbcklqanjcxpnqzczvfcaxgab 
+17909 div:int (none) 17883 0 4 98 736 344 2.13953 554 5912 5996 128 0 heads_default wzcagcsmehwlfsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmdukavnvhtvcflqunjcxpnkzczvfcaxgab 
+18136 div:int (none) 18101 0 1 96 712 337 2.11276 559 5982 5993 125 0 heads_default wzcagcolexwgcsbcspxprvufbrevwpycputvuvjoqtyuubcyvptcdqyfccypcikmquojdvdtvckbqsnjcrpnqzczvfcaxgab 
+17647 div:int (none) 17145 0 9 99 760 355 2.14085 545 5822 5992 124 0 heads_default wzcagcpmexwlcsbrspwxjrqndbavvwpyclutvutjojtyueubcyvptcbqyfwcypmskmdukjvnvdtvcflqunjcxpnqzczvfcaxgab 
+18001 div:int (none) 17621 0 3 102 776 368 2.1087 555 5938 5991 124 0 heads_default wzcagcsdexdgcsbbcsspxjrqndbavvuhpycputquvjoqtyuubcyvptjdqbftbypcjkmdukjvxvdtcbcklrqanjcxpnqzczvfcaxgab 
+18110 div:int (none) 17983 0 1 100 392 252 1.55556 560 5975 5991 130 0 heads_default wzcagcpmeywlcsbrsrwojrqndbzvvwlyclutvutjojtyueubcyvptcbjyxccqypmskmdukjvsvwtvcfuqunjcxpnqzczvfcsxgab 
+18114 div:int (none) 18091 0 1 97 712 337 2.11276 560 5978 5990 127 0 heads_default wzcagcwmexwgcsjcnpxjjvnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmquwjvbvdtnckbqanqcrvnqzczvfcaxgab 
+17868 div:int (none) 17621 0 4 101 768 364 2.10989 551 5896 5990 124 0 heads_default wzcagcsdexdgcsbbcdspxjrqndbavvuhpycputquvjoqtyuubcyvptjdqbftbypcjkmdukjvxvdtcbcklqanjcxpnqzczvfcaxgab 
+18091 div:int (none) 17894 0 1 97 712 337 2.11276 559 5968 5989 126 0 heads_default wzcagcwmexwgcsbcnpxjjvnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmquwjvbvdtnckbqanqcrvnqzczvfcaxgab 
+17423 div:int (none) 17372 0 19 98 728 350 2.08 537 5752 5988 124 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykmrnkqvxtdxcfklqanjcxprlzczvfcaxgab 
+18065 div:int (none) 18032 0 2 98 728 346 2.10405 558 5958 5983 129 0 heads_default wzcagcsmwxwlcybrswxjeqndbtvvwpyclutvuvjojtyuubcyvptckqyfccopcskmdukjvnuftvcwoliunjcxpnqiczvfcaxgab 
+18101 div:int (none) 17961 0 1 96 704 336 2.09524 558 5971 5982 124 0 heads_default wzcagcolexwgcsbcspxprvufbcevwpycputvuvjoqtyuubcyvptcdqyfccypcikmquojdvdtvckbqsnjcrpnqzczvfcaxgab 
+17994 div:int (none) 17773 0 2 100 752 454 1.65639 556 5937 5982 128 0 heads_default wzcagcpmexwlcsbrspwxjrqxdbavvwpyclutvutjojtyueubcyvptcbjyxccqypmfkmdukjvnkdtvcflqunjcxpnqzezvfcaxgab 
+18027 div:int (none) 17995 0 2 99 768 353 2.17564 557 5948 5979 126 0 heads_default wzcagcpmexwlcsbrspwxjrqndbavvwpyclutvutjojtyueubcyvptcbqyowcyvmsktdukjvnvdtvcflqunjcxpnqzczvfcaxgab 
+18089 div:int (none) 17829 0 1 100 380 352 1.07955 558 5967 5979 127 0 heads_default wzcagcsdexdgcsbcsspxjrqndbavvuhpycputquvdoftyuuscyvptjvqyfpbypvjkbdukjvxvdtcbcylnanjcxpnqzczvfcaxgab 
+18017 div:int (none) 17933 0 3 99 744 359 2.07242 556 5943 5979 128 0 heads_default wzcagcsmexwgcjiqspxsrqndibalvwpycputvuekoqtyuubcytptydqsfcyypcykmzukjvnvdtvuklqandcxpnqzcmzvfcaxgab 
+18026 div:int (none) 17889 0 1 98 728 349 2.08596 557 5947 5979 128 0 heads_default wzcagcsmexwlcsbrswxjeqndbtzvwpyclutvuvjojtyuubcyvptckqyfccopcskmdukjvnuftvcwoliunjcxpnqiczvfcaxgab 
+18094 div:int (none) 18026 0 1 98 728 349 2.08596 559 5968 5979 129 0 heads_default wzcagcsmexwlcsbrswxjeqndbtevwpyclutvuvjqjtyuubcyvptckqyfccopcqkmdukjvnuftvcwoliunjcxpnqiczvfcaxgab 
+17829 div:int (none) 17712 0 11 100 760 352 2.15909 550 5883 5979 126 0 heads_default wzcagcsdexdgcsbcsspxjrqndbavvuhpycputquvdoftyuubcyvptjvqyfpbypvjkbdukjvxvdtcbcylnanjcxpnqzczvfcaxgab 
+17961 div:int (none) 17732 0 3 96 704 336 2.09524 554 5928 5977 123 0 heads_default wzcagcolexwgcsbcspxprvufbcevwpycputvuvjoqtyuubcyvptcdqyfccypcikmqukjdvdtvckbqanjcrpnqzczvfcaxgab 
+17820 div:int (none) 17699 0 8 100 760 359 2.11699 550 5881 5975 122 0 heads_default wzcagcsmexdgcsbcdspxjrqndbavvwhpycputquvjoqtywuubcyvptcdqyftbypcjkmdukjvlvdtccklqanjcxpnqzczvfcaxgab 
+17773 div:int (none) 17739 0 11 100 760 361 2.10526 549 5862 5971 127 0 heads_default wzcagcpmexwlcsbrspwxjrqxdbavvwpyclutvutjojtyueubcyvptcbjyxccqypmfkmdukjvnkdtvcflqunjcxpnqzczvfcaxgab 
+18032 div:int (none) 17889 0 1 98 720 345 2.08696 557 5948 5969 128 0 heads_default wzcagcsmexwlcybrswxjeqndbtvvwpyclutvuvjojtyuubcyvptckqyfccopcskmdukjvnuftvcwoliunjcxpnqiczvfcaxgab 
+17933 div:int (none) 17906 0 3 99 744 358 2.07821 554 5921 5964 127 0 heads_default wzcagcsmexwgcjbqspxsrqndibalvwpycputvuekoqtyuubcytptydqsfcyypcykmzukjvnvdtvuklqandcxpnqzcmzvfcaxgab 
+17995 div:int (none) 17647 0 1 99 768 356 2.1573 556 5937 5955 125 0 heads_default wzcagcpmexwlcsbrspwxjrqndbavvwpyclutvutjojtyueubcyvptcbqyowcypmsktdukjvnvdtvcflqunjcxpnqzczvfcaxgab 
+18020 div:int (none) 17909 0 1 98 184 344 0.534884 557 5945 5955 129 0 heads_default wzcagcsmehwlfsbrspwxjrandbavvwzyclutvuvjojtluubcyvptfdqyfccypcskmdukavnvhtvcflqunjcbpnkzczvfcaxgab 
+17889 div:int (none) 17523 0 6 98 720 345 2.08696 553 5904 5954 127 0 heads_default wzcagcsmexwlcsbrswxjeqndbtvvwpyclutvuvjojtyuubcyvptckqyfccopcskmdukjvnuftvcwoliunjcxpnqiczvfcaxgab 
+17782 div:int (none) 17599 0 7 99 744 358 2.07821 549 5867 5953 125 0 heads_default wzcagcsmexwgcjbqspxsrqndibalvwpycputvuekoqtyuubcytptydqyfcyypcykmzukjvnvdtvuklqanjcxpnqzcmzvfcaxgab 
+17906 div:int (none) 17782 0 1 99 744 358 2.07821 553 5910 5949 126 0 heads_default wzcagcsmexwgcjbqspxsrqndibalvwpycputvuekoqtyuubcytptydqyfcyypcykmzukjvnvdtvuklqandcxpnqzcmzvfcaxgab 
+17796 div:int (none) 17712 0 6 100 768 354 2.16949 549 5872 5949 126 0 heads_default wzcagcsdexdgcsbcpspxjrqndbavvuhpycputquvdoqtyuubcyvptjvqyfpbypvjkmdukjvxvdtcbcylnanjcxpnqzczvfcaxgab 
+17852 div:int (none) 17588 0 5 100 776 360 2.15556 552 5892 5943 128 0 heads_default wzcagcpmeywlcsbrsrwojrqndbavvwpyclutvutjojtyueubcyvptcbjyxccqypmskmdukjvsvdtvcfuqunjcxpnqzczvfcaxgab 
+17741 div:int (none) 17423 0 7 98 728 350 2.08 547 5853 5942 125 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqkfccywcykmrnkqvxtdxcfklqanjcxprlzczvfcaxgab 
+17732 div:int (none) 17671 0 6 96 704 333 2.11411 547 5850 5939 122 0 heads_default wzcagcolexwgcsbcspxprvufbcevwpycputvuvjoqtyuubcyvptcdqyfccypcikmqukjvvdtvckbqanjcrpnqzczvfcaxgab 
+17840 div:int (none) 17274 0 1 98 182 342 0.532164 552 5886 5939 126 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojfyuubcyvptfdqyfccypcskmdukavnvhtvcolqunjcxpnqzczvfcaxgab 
+17929 div:int (none) 17621 0 1 101 384 363 1.05785 553 5919 5936 124 0 heads_default wzcagcsdexdgcsbbcsspxjrqndbavvuhpycpubquvjoqtyuubcyvptjdqbftbypcjkmdukjvxvdtcbcklqanjcxpnqzczvfcaxgab 
+17599 div:int (none) 17570 0 11 99 744 355 2.09577 543 5808 5931 124 0 heads_default wzcagcsmexwgcjbqspxsrqndibavvwpycputvuekoqtyuubcytptydqyfcyypcykmzukjvnvdtvuklqanjcxpnqzcmzvfcaxgab 
+17274 div:int (none) 16986 0 35 98 736 343 2.14577 533 5702 5931 125 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmdukavnvhtvcolqunjcxpnqzczvfcaxgab 
+17613 div:int (none) 17520 0 10 96 704 333 2.11411 543 5811 5926 121 0 heads_default wzcagcomexwgcscspxjrvufbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmqukjvnvdtvckbqanjcrpnqkczvfcaxgab 
+17827 div:int (none) 17758 0 1 99 736 343 2.14577 551 5882 5923 127 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmdukavnvhtvcflqunjcapnqzczvfcaxgabh 
+17883 div:int (none) 17758 0 1 98 736 344 2.13953 553 5901 5923 127 0 heads_default wzcagcsmexwlfsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmdukavnvhtvcflqunjcxpnkzczvfcaxgab 
+17838 div:int (none) 17803 0 1 97 712 340 2.09412 551 5885 5917 124 0 heads_default wzcagcwmexwgcsbcnpxjrvnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmquwjvnvdtnckbqanqcrpnqzczvfcaxgab 
+17523 div:int (none) 17402 0 9 99 736 350 2.10286 541 5782 5909 126 0 heads_default wzcagcsmexwlcsbrspwxjeqndbtvvwpyclutvuvjojtyuubcyvptcdqyfccopcskmdukjvnuftvcwoliunjcxpnqzczvfcaxgab 
+17588 div:int (none) 17558 0 7 100 776 360 2.15556 543 5803 5902 127 0 heads_default wzcagcpmexwlcsbrsrwojrqndbavvwpyclutvutjojtyueubcyvptcbjyxccqypmskmdukjvnvdtvcfuqunjcxpnqzczvfcaxgab 
+17758 div:int (none) 17274 0 4 98 736 343 2.14577 549 5859 5901 126 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmdukavnvhtvcflqunjcxpnqzczvfcaxgab 
+17712 div:int (none) 17624 0 2 100 768 354 2.16949 546 5843 5886 125 0 heads_default wzcagcsdexdgcsbcsspxjrqndbavvuhpycputquvdoqtyuubcyvptjvqyfpbypvjkmdukjvxvdtcbcylnanjcxpnqzczvfcaxgab 
+17699 div:int (none) 17499 0 2 100 760 359 2.11699 546 5839 5885 121 0 heads_default wzcagcsmexdgcsbcsspxjrqndbavvwhpycputquvjoqtywuubcyvptcdqyftbypcjkmdukjvlvdtccklqanjcxpnqzczvfcaxgab 
+17803 div:int (none) 17747 0 1 97 712 340 2.09412 550 5875 5885 123 0 heads_default wzcagcomexwgcsbcnpxjrvnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmquwjvnvdtnckbqanqcrpnqzczvfcaxgab 
+17593 div:int (none) 16964 0 4 97 712 337 2.11276 543 5804 5885 120 0 heads_default wzcagcomexwgcsbcspxjrvnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmquwjvnvdtvckbqanjcrpnqzczvfcaxgab 
+17681 div:int (none) 17593 0 2 97 712 339 2.10029 546 5834 5883 121 0 heads_default wzcagcomexwgcsbcspxjrvnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmquwjvnvdtnckbqanjcrpnqzczvfcaxgab 
+17747 div:int (none) 17681 0 1 97 712 340 2.09412 548 5854 5881 122 0 heads_default wzcagcomexwgcsbcspxjrvnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmquwjvnvdtnckbqanqcrpnqzczvfcaxgab 
+17467 div:int (none) 17381 0 10 100 776 360 2.15556 539 5765 5872 125 0 heads_default wzcagcpmexwlcsbrspwxjrqndbavvwpyclutvutjojtyueubcyvptcbjyxccqypmskmdukjvnvdtvcflqunjcxpnqzczvfcaxgab 
+17739 div:int (none) 17467 0 1 100 776 360 2.15556 548 5852 5868 126 0 heads_default wzcagcpmexwlcsbrspwxjrqxdbavvwpyclutvutjojtyueubcyvptcbjyxccqypmskmdukjvnvdtvcflqunjcxpnqzczvfcaxgab 
+17624 div:int (none) 17590 0 2 100 760 357 2.12885 543 5814 5854 124 0 heads_default wzcagcsdexdgcsbcsspxjrqndbavvuhpycputquvdoqtyuubcyvptjdqyfpbypvjkmdukjvxvdtcbcylnanjcxpnqzczvfcaxgab 
+17671 div:int (none) 17520 0 1 96 704 333 2.11411 545 5830 5853 121 0 heads_default wzcagcolexwgcsbcspxprvufbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmqukjvvdtvckbqanjcrpnqzczvfcaxgab 
+17520 div:int (none) 16964 0 4 97 712 337 2.11276 540 5780 5850 120 0 heads_default wzcagcomexwgcsbcspxjrvufbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmqukjvnvdtvckbqanjcrpnqzczvfcaxgab 
+17499 div:int (none) 17198 0 7 99 752 355 2.11831 539 5772 5845 120 0 heads_default wzcagcsmexdgcsbcsspxjrqndbavvwhpycputquvjoqtyuubcyvptcdqyftbypcjkmdukjvlvdtccklqanjcxpnqzczvfcaxgab 
+17559 div:int (none) 17497 0 3 100 760 360 2.11111 541 5794 5843 122 0 heads_default wzcagcsdexdgcsbcsspxjrqndbavvuhpycputquvjoqtyuubcyvptjdqyftbypcjkmdukjvxvdtcbcklqanjcxpnqzczvfcaxgab 
+17590 div:int (none) 17559 0 1 100 760 359 2.11699 542 5803 5834 123 0 heads_default wzcagcsdexdgcsbcsspxjrqndbavvuhpycputquvdoqtyuubcyvptjdqyftbypcjkmdukjvxvdtcbcklnanjcxpnqzczvfcaxgab 
+17145 div:int (none) 16886 0 12 99 752 353 2.13031 529 5665 5832 123 0 heads_default wzcagcpmexwlcsbrspwxjrqndbavvwpyclutvutjojtyueubcyvptcbqyfccypmskmdukjvnvdtvcflqunjcxpnqzczvfcaxgab 
+17198 div:int (none) 17005 0 14 99 752 355 2.11831 530 5680 5821 119 0 heads_default wzcagcsmexdgcsbcsspxjrqndbavvwhpycputquvjoqtyuubcyvptcdqyftbypcjkmdukjvxvdtccklqanjcxpnqzczvfcaxgab 
+17094 div:int (none) 17061 0 11 99 744 355 2.09577 527 5646 5818 122 0 heads_default wzcagcsmexwgcjbcspxsrqndibavvwpycputvuekoqtyuubcytptydqyfcdypcykmzukjvnvdtvuklqanjcxpnqzcmzvfcaxgab 
+17558 div:int (none) 17467 0 1 100 776 360 2.15556 542 5794 5810 126 0 heads_default wzcagcpmexwlcsbrsrwxjrqndbavvwpyclutvutjojtyueubcyvptcbjyxccqypmskmdukjvnvdtvcflqunjcxpnqzczvfcaxgab 
+16964 div:int (none) 16940 0 30 97 712 337 2.11276 523 5603 5808 119 0 heads_default wzcagcomexwgcsbcspxjrvnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmqukjvnvdtvckbqanjcrpnqzczvfcaxgab 
+17570 div:int (none) 17094 0 1 99 744 355 2.09577 542 5798 5808 123 0 heads_default wzcagcsmexwgcjbqspxsrqndibavvwpycputvuekoqtyuubcytptydqyfcrypcykmzukjvnvdtvuklqanjcxpnqzcmzvfcaxgab 
+17497 div:int (none) 17420 0 2 99 752 356 2.11236 539 5772 5801 121 0 heads_default wzcagcsdexdgcsbcsspxjrqndbavvwhpycputquvjoqtyuubcyvptjdqyftbypcjkmdukjvxvdtccklqanjcxpnqzczvfcaxgab 
+17402 div:int (none) 17246 0 3 99 736 350 2.10286 537 5744 5786 125 0 heads_default wzcagcsmexwlcsbrspwxjeqndbavvwpyclutvuvjojtyuubcyvptcdqyfccopcskmdukjvnuftvcwolqunjcxpnqzczvfcaxgab 
+17381 div:int (none) 17145 0 2 100 776 360 2.15556 536 5736 5784 124 0 heads_default wzcagcpmexwlcsbrspwxjrqndbavvwpyclutvutjojtyueubcyvptcbqyxccqypmskmdukjvnvdtvcflqunjcxpnqzczvfcaxgab 
+17420 div:int (none) 17198 0 2 99 752 355 2.11831 537 5751 5772 120 0 heads_default wzcagcsdexdgcsbcsspxjrqndbavvwhpycputquvjoqtyuubcyvptcdqyftbypcjkmdukjvxvdtccklqanjcxpnqzczvfcaxgab 
+17372 div:int (none) 17307 0 1 98 728 350 2.08 535 5733 5752 123 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykmrukqvxtdxcfklqanjcxprlzczvfcaxgab 
+17246 div:int (none) 17210 0 5 99 736 350 2.10286 532 5692 5751 124 0 heads_default wzcagcsmexwlcsbrspwxjeqndbavvwpyclutvuvjojtyuubcyvptcdqyfccypcskmdukjvnuftvcwolqunjcxpnqzczvfcaxgab 
+16986 div:int (none) 16803 0 13 98 736 344 2.13953 524 5610 5748 124 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmdukjvnvhtvcolqunjcxpnqzczvfcaxgab 
+17307 div:int (none) 16873 0 3 98 728 349 2.08596 533 5712 5747 122 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykmrukqvxtdtcfklqanjcxprlzczvfcaxgab 
+16816 div:int (none) 16791 0 24 98 736 348 2.11494 517 5548 5720 118 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwpycputvuekoqtyuubcyvptydqyfcdypcykmdukjvnvdtvuklqanjcxpnqzcmzvfcaxgab 
+16873 div:int (none) 16763 0 8 98 728 349 2.08596 519 5567 5714 121 0 heads_default wzcagcsmexwgcpgcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykmrukqvxtdtcfklqanjcxpnqzczvfcaxgab 
+16701 div:int (none) 16651 0 11 98 736 349 2.10888 513 5514 5708 117 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwhpycputquvjoqtyuubcyvptcdqyfcbypcykmdukjvxvdtccklqanjcxpnqzczvfcaxgab 
+17012 div:int (none) 16888 0 7 99 736 350 2.10286 525 5618 5702 122 0 heads_default wzcagcsmexwlcsbrspwxjrqndbavvwpyclutvuvjojtyuubcyvptcdqyfccypcskmdukjvnpdtvcwolqunjcxpnqzczvfcaxgab 
+17210 div:int (none) 17012 0 1 99 744 351 2.11966 531 5682 5697 123 0 heads_default wzcagcsmexwlcsbrspwxjeqndbavvwpyclutvuvjojtyuubcyvptcdqyfccypcskmdukjvnudtvcwolqunjcxpnqzczvfcaxgab 
+17005 div:int (none) 16701 0 4 99 744 353 2.10765 524 5615 5688 118 0 heads_default wzcagcsmexdgcsbcsspxjrqndbavvwhpycputquvjoqtyuubcyvptcdqyfcbypcykmdukjvxvdtccklqanjcxpnqzczvfcaxgab 
+16886 div:int (none) 16862 0 11 98 744 349 2.13181 520 5573 5685 122 0 heads_default wzcagcpmexwlcsbrspwxjrqndbavvwpyclutvutjojtyuubcyvptcbqyfccypmskmdukjvnvdtvcflqunjcxpnqzczvfcaxgab 
+17061 div:int (none) 17004 0 1 99 744 355 2.09577 526 5635 5646 121 0 heads_default wzcagcsmexwgcjbcspxsrqndibavvwpycputvuekoqtyuubcytptydqyfcdypcykmdukjvnvdtvuklqanjcxpnqzcmzvfcaxgab 
+17004 div:int (none) 16973 0 1 99 744 355 2.09577 524 5614 5646 120 0 heads_default wzcagcsmexwgcjbcspxjrqndibavvwpycputvuekoqtyuubcytptydqyfcdypcykmdukjvnvdtvuklqanjcxpnqzcmzvfcaxgab 
+16573 div:int (none) 16396 0 12 97 712 341 2.08798 508 5471 5644 116 0 heads_default wzcagcsmexwgcsbcspxjrqnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmdukjvnvdtvcklqanjcrpnqzczvfcaxgab 
+16940 div:int (none) 16620 0 2 97 712 340 2.09412 522 5593 5633 118 0 heads_default wzcagcomexwgcsbcspxjrqnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmqukjvnvdtvckbqanjcrpnqzczvfcaxgab 
+16973 div:int (none) 16816 0 2 98 736 351 2.09687 523 5604 5632 119 0 heads_default wzcagcsmexwgcjbcspxjrqndbavvwpycputvuekoqtyuubcytptydqyfcdypcykmdukjvnvdtvuklqanjcxpnqzcmzvfcaxgab 
+16888 div:int (none) 16712 0 3 98 728 346 2.10405 520 5573 5627 121 0 heads_default wzcagcsmexwlcsbrspwxjrqndbavvwpyclutvuvjojtyuubcyvptcdqyfccypcskmdukjvnpdtvcolqunjcxpnqzczvfcaxgab 
+16803 div:int (none) 16777 0 6 98 736 344 2.13953 517 5544 5611 123 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwzyclutvuvjojtyuubcyvptfdqyfccypcskmdukjvnvdtvcolqunjcxpnqzczvfcaxgab 
+16777 div:int (none) 16745 0 5 98 736 344 2.13953 516 5536 5596 122 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwpyclutvuvjojtyuubcyvptfdqyfccypcskmdukjvnvdtvcolqunjcxpnqzczvfcaxgab 
+16791 div:int (none) 16698 0 2 98 736 348 2.11494 516 5540 5595 117 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwpycputvuekoqtyuubcyvptydqyfcdypcykmdukjvnvdtvcklqanjcxpnqzcmzvfcaxgab 
+16620 div:int (none) 16573 0 11 97 712 340 2.09412 510 5486 5594 117 0 heads_default wzcagcomexwgcsbcspxjrqnfbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmdukjvnvdtvckbqanjcrpnqzczvfcaxgab 
+16862 div:int (none) 16712 0 1 98 736 345 2.13333 519 5563 5588 121 0 heads_default wzcagcsmexwlcsbrspwxjrqndbavvwpyclutvuvjojtyuubcyvptcdqyfccypmskmdukjvnvdtvcflqunjcxpnqzczvfcaxgab 
+16763 div:int (none) 16613 0 2 98 736 347 2.12104 515 5531 5587 120 0 heads_default wzcagcsmexwgcpbcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykmrukqvxvdtcfklqanjcxpnqzczvfcaxgab 
+16712 div:int (none) 16662 0 4 98 736 344 2.13953 514 5518 5581 120 0 heads_default wzcagcsmexwlcsbrspwxjrqndbavvwpyclutvuvjojtyuubcyvptcdqyfccypcskmdukjvnvdtvcolqunjcxpnqzczvfcaxgab 
+16651 div:int (none) 16283 0 6 98 736 349 2.10888 511 5498 5573 116 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwhpycputquvjoqtyuubcyvptcdqyfccypcykmdukjvxvdtccklqanjcxpnqzczvfcaxgab 
+16632 div:int (none) 16514 0 3 98 736 344 2.13953 511 5493 5564 118 0 heads_default wzcagcsmexwlcsbrspwxjrqndbavvwpycputvuvjoqtyuubcyvptcdqyfccypcskmdukjvnvdtvcklqunjcxpnqzczvfcaxgab 
+16674 div:int (none) 16452 0 2 97 736 344 2.13953 512 5504 5548 115 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwpycputvuekoqtyuubcyvptcdqyfcdypcykmdukjvnvdtvcklqanjcxpnqzczvfcaxgab 
+16745 div:int (none) 16712 0 2 98 736 343 2.14577 515 5527 5545 121 0 heads_default wzcagcsmexwlcsbrspwxjrandbavvwpyclutvuvjojtyuubcyvptcdqyfccypcskmdukjvnvdtvcolqunjcxpnqzczvfcaxgab 
+16698 div:int (none) 16674 0 2 98 744 348 2.13793 513 5513 5545 116 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwpycputvuekoqtyuubcyvptcdqyfcdypcykmdukjvnvdtvcklqanjcxpnqzcmzvfcaxgab 
+16613 div:int (none) 16562 0 4 98 736 347 2.12104 509 5481 5532 119 0 heads_default wzcagcsmexwgcpbcspxjrqnibavvwhtycputvuvjoqtyuubcyvptcdqyfccywcykmrukqvxvdtccklqanjcxpnqzczvfcaxgab 
+16396 div:int (none) 16361 0 15 97 728 340 2.14118 501 5421 5522 115 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmdukjvnvdtvcklqanjcrpnqzczvfcaxgab 
+16662 div:int (none) 16632 0 2 98 736 344 2.13953 512 5501 5519 119 0 heads_default wzcagcsmexwlcsbrspwxjrqndbavvwpyclutvuvjojtyuubcyvptcdqyfccypcskmdukjvnvdtvcklqunjcxpnqzczvfcaxgab 
+16514 div:int (none) 16422 0 4 97 728 340 2.14118 506 5456 5510 117 0 heads_default wzcagcsmexwlcsbrspxjrqndbavvwpycputvuvjoqtyuubcyvptcdqyfccypcskmdukjvnvdtvcklqunjcxpnqzczvfcaxgab 
+16283 div:int (none) 16270 0 13 98 736 346 2.12717 495 5386 5505 115 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwhpycputvuvjoqtyuubcyvptcdqyfccypcykmdukjvxvdtccklqanjcxpnqzczvfcaxgab 
+16452 div:int (none) 16059 0 10 97 736 341 2.15836 503 5437 5505 114 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwpycputvuvjoqtyuubcyvptcdqyfcdypcykmdukjvnvdtvcklqanjcxpnqzczvfcaxgab 
+16422 div:int (none) 16395 0 6 97 728 340 2.14118 502 5428 5494 116 0 heads_default wzcagcsmexwlcsbcspxjrqndbavvwpycputvuvjoqtyuubcyvptcdqyfccypcskmdukjvnvdtvcklqunjcxpnqzczvfcaxgab 
+16562 div:int (none) 16527 0 1 98 736 347 2.12104 507 5466 5486 118 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwhpycputvuvjoqtyuubcyvptcdqyfccywcykmrukqvxvdtccklqanjcxpnqzczvfcaxgab 
+16527 div:int (none) 16407 0 1 98 736 347 2.12104 506 5459 5473 117 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwhpycputvuvjoqtyuubcyvptcdqyfccywcykmdukqvxvdtccklqanjcxpnqzczvfcaxgab 
+16407 div:int (none) 16283 0 3 98 736 346 2.12717 501 5423 5466 116 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwhpycputvuvjoqtyuubcyvptcdqyfccypcykmdukqvxvdtccklqanjcxpnqzczvfcaxgab 
+16059 div:int (none) 16036 0 36 97 728 340 2.14118 483 5321 5456 113 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwpycputvuvjoqtyuubcyvptcdqyfccypcykmdukjvnvdtvcklqanjcxpnqzczvfcaxgab 
+16395 div:int (none) 16361 0 1 97 728 340 2.14118 501 5421 5428 115 0 heads_default wzcagcsmexwlcsbcspxjrqndbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmdukjvnvdtvcklqanjcxpnqzczvfcaxgab 
+16361 div:int (none) 16059 0 2 97 728 340 2.14118 499 5409 5426 114 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwpycputvuvjoqtyuubcyvptcdqyfccypcikmdukjvnvdtvcklqanjcxpnqzczvfcaxgab 
+15781 div:int (none) 15434 0 22 96 364 341 1.06745 474 5233 5405 109 0 heads_default wzcagcsmexwgcsbcspxrqndbavvwpycputvuvjoqtyyubcynptcdqffccyicykmdukjvnvdtvcklqanjcxpnqzczvfcaxgab 
+16270 div:int (none) 16059 0 1 98 736 346 2.12717 494 5380 5386 114 0 heads_default wzcagcsmexwgcsbcspxjrqndbavvwhpycputvuvjoqtyuubcyvptcdqyfccypcykmdukjvnvdtccklqanjcxpnqzczvfcaxgab 
+15968 div:int (none) 15907 0 2 96 360 336 1.07143 480 5290 5333 111 0 heads_default wzcagcsmexwgcsbcspxrqndbavvwpycputvuvjoqtyyubcyvptcdqyfccypcykmdukjvnvdtvcklqanjcxpnqzczvfcaxgab 
+15907 div:int (none) 15781 0 4 96 360 336 1.07143 478 5271 5328 110 0 heads_default wzcagcsmexwgcsbcspxrqndbavvwpycputvuvjoqtyyubcyvptcdqyfccyicykmdukjvnvdtvcklqanjcxpnqzczvfcaxgab 
+16036 div:int (none) 15968 0 1 96 720 336 2.14286 482 5311 5326 112 0 heads_default wzcagcsmexwgcsbcspxrqndbavvwpycputvuvjoqtyuubcyvptcdqyfccypcykmdukjvnvdtvcklqanjcxpnqzczvfcaxgab 
+15434 div:int (none) 15407 0 11 96 364 341 1.06745 463 5125 5310 108 0 heads_default wzcagcsmexwgcsbcspxrqndbavvwpycputvuvjoqtyyubcynptcdqffccyicykmdukjvnvbtvcklqanjcxpnqzczvfcaxgab 
+15407 div:int (none) 15215 0 1 96 364 341 1.06745 462 5116 5133 107 0 heads_default wzcagcsmexwgcsbcswxrqndbavvwpycputvuvjoqtyyubcynptcdqffccyicykmdukjvnvbtvcklqanjcxpnqzczvfcaxgab 
+15215 div:int (none) 14962 0 5 96 360 339 1.06195 455 5049 5125 106 0 heads_default wzcagcsmexwgcsbcswxrqndbavvwpycputvuvjoqtyyubcynptcdqdfccyicykmdukjvnvbtvcklqanjcxpnqzczvfcaxgab 
+14962 div:int (none) 14936 0 12 96 360 341 1.05572 446 4965 5086 105 0 heads_default wzcagcsmexwgcsbcswxrqndbavvwpycputvuvjoqtyyubcynptcdqdfccyicykmdukjvnvbtocklqanjcxpnqzczvfcaxgab 
+14346 div:int (none) 14217 0 24 97 368 343 1.07289 422 4766 4971 102 0 heads_default wzcagcscexwgcsbcswxrqndbavvwpycputvvvjoqtyyuqbcynptcdqdfccyicykmdukjvnvbtocklqanscxpnqzczvfcaxgab 
+14762 div:int (none) 14346 0 11 97 368 346 1.06358 439 4902 4970 103 0 heads_default wzcagcscexwgcsbcswxrqndbavvwpycputvuvjoqtyyuqbcynptcdqdfccyicykmdukjvnvbtocklqanscxpnqzczvfcaxgab 
+14936 div:int (none) 14762 0 1 97 364 346 1.05202 445 4955 4965 104 0 heads_default wzcagcsmexwgcsbcswxrqndbavvwpycputvuvjoqtyyuqbcynptcdqdfccyicykmdukjvnvbtocklqanscxpnqzczvfcaxgab 
+14060 div:int (none) 13554 0 22 97 368 343 1.07289 408 4674 4791 99 0 heads_default wzcagcscexwgcsbcswxrqndbavvwpycputvvvcoqtyyuqbcynptcdqdfccyicykmdpkjvnvftocklqanscxpnqzczvfcaxgab 
+14217 div:int (none) 14199 0 6 97 368 343 1.07289 416 4725 4772 101 0 heads_default wzcagcscexwgcsbcswxrqndbavvwpycputvvvjoqtyyuqbcynptcdqdfccyicykmdukjvnvftocklqanscxpnqzczvfcaxgab 
+14199 div:int (none) 14060 0 1 97 368 343 1.07289 415 4720 4725 100 0 heads_default wzcagcscexwgcsbcswxrqndbavvwpycputvvvjoqtyyuqbcynptcdqdfccyicykmdpkjvnvftocklqanscxpnqzczvfcaxgab 
+13554 div:int (none) 13522 0 21 97 184 344 0.534884 392 4515 4695 98 0 heads_default wzcagcscexwgcsbcswxrqndbavvwpycputvvvcoqtyyuqbcynztcdqdfccyicykmdpkjvnvftocklqanscxpnqzczvfcaxgab 
+13104 div:int (none) 13075 0 19 96 178 335 0.531343 371 4359 4548 92 0 heads_default wzcagclcuxwgcsbcswxrqndbavvwpycpttvvvcqtyyuqvcynztcdqdfccyicykmdpkjvnvftocktqanlcxpnqzczvfcaxgab 
+13316 div:int (none) 13292 0 8 96 182 340 0.535294 382 4432 4523 95 0 heads_default wzcagcscuxwgcsbcswxrqndbavvwpycpttvvvcqtyyuqbcynztcdqdfccyicykmdpkjvnvftocktqanscxpnqzczvfcaxgab 
+13355 div:int (none) 13316 0 3 96 182 340 0.535294 384 4447 4518 96 0 heads_default wzcagcscexwgcsbcswxrqndbavvwpycpttvvvcqtyyuqbcynztcdqdfccyicykmdpkjvnvftocktqanscxpnqzczvfcaxgab 
+13522 div:int (none) 13355 0 1 97 184 344 0.534884 391 4505 4515 97 0 heads_default wzcagcscexwgcsbcswxrqndbavvwpycpttvvvcoqtyyuqbcynztcdqdfccyicykmdpkjvnvftocklqanscxpnqzczvfcaxgab 
+13075 div:int (none) 12981 0 18 96 178 335 0.531343 370 4348 4475 91 0 heads_default wzcagclcuxwgcsbcswxrqndbavvwpycpttvvvcqtyyuqvcynztcdqdfccyicykmdpkjvnvftocctqanlcxpnqzczvfcaxgab 
+13189 div:int (none) 13104 0 11 96 178 335 0.531343 376 4391 4470 93 0 heads_default wzcagclcuxwgcsbcswxrqndbavvwpycpttvvvcqtyyuqvcynztcdqdfccyicykmdpkjvnvftocktqanscxpnqzczvfcaxgab 
+13292 div:int (none) 13189 0 1 96 180 339 0.530973 381 4425 4438 94 0 heads_default wzcagclcuxwgcsbcswxrqndbavvwpycpttvvvcqtyyuqbcynztcdqdfccyicykmdpkjvnvftocktqanscxpnqzczvfcaxgab 
+12688 div:int (none) 12667 0 9 96 89 333 0.267267 359 4223 4401 88 0 heads_default wzcagclcuxwgcsbcswxrqndbavvwpacpttvvvcqpyyuqvcynctcdqdfccyicykmdpkjvnvftocctqanlcxpnqzczvfcaxgab 
+12981 div:int (none) 12764 0 5 96 89 333 0.267267 367 4318 4365 90 0 heads_default wzcagclcuxwgcsbcswxrqndbavvwpycpttvvvcqryyuqvcynctcdqdfccyicykmdpkjvnvftocctqanlcxpnqzczvfcaxgab 
+12764 div:int (none) 12688 0 7 96 106.8 333 0.320721 361 4248 4339 89 0 heads_default wzcagclcuxwgcsbcswxrqndbavvwpacpttvvvcqryyuqvcynctcdqdfccyicykmdpkjvnvftocctqanlcxpnqzczvfcaxgab 
+12667 div:int (none) 12633 0 2 96 148.333 333 0.445445 358 4218 4243 87 0 heads_default wzcagclcuxwgcsbcswxrqndbavvwptcpttvvvcqpyyuqvcynctcdqdfccyicykmdpkjvnvftocctqaclcxpnqzczvfcaxgab 
+12557 div:int (none) 12466 0 2 96 90 331 0.271903 355 4185 4240 85 0 heads_default wzcagclcuxwgcsbcsexrqndbavvwptcpttvvvcqpvyuqvcynctcqqcfccyicykmdpkjvnvftocctqaclcxpnqzczvfcaxgab 
+12633 div:int (none) 12557 0 2 96 180 331 0.543807 357 4208 4230 86 0 heads_default wzcagclcuxwgcsbcsexrqndbavvwptcpttvvvcqpvyuqvcynctcdqdfccyicykmdpkjvnvftocctqaclcxpnqzczvfcaxgab 
+12466 div:int (none) 12402 0 4 96 90 331 0.271903 352 4154 4217 84 0 heads_default wzcagclcuxwgcsbcsexrqndbavvcptcpttvvvcqpvyuqvcynctcqqcfccyicykmdpkjvnvftocctqaclcxpnqzczvfcaxgab 
+12402 div:int (none) 12370 0 3 96 89 332 0.268072 350 4132 4201 83 0 heads_default wzcagclcuxwgcsbcsexrqndbavvcptcpttcvvcqpvyuqvcynctcqqcfccyicykmdpkjvnvftocctqaclcxpnqzczvfcaxgab 
+12370 div:int (none) 12085 0 3 96 89 333 0.267267 349 4120 4174 82 0 heads_default wzcagclcuxwgcsbcsexrqndvavvcptcpttcvvcqpvyuqvcynctcqqcfccyicykmdpkjvnvftocctqaclcxpnqzczvfcaxgab 
+12085 div:int (none) 11872 0 5 96 89 333 0.267267 341 4030 4125 81 0 heads_default wzcagclcuxwgcsbcsexrqndvavvcptcpttcvvcqpvyuqvcynctcqqcfccyicykmdpkjvdvftocctqaclcxpnqzczvfcaxgab 
+11872 div:int (none) 11838 0 7 96 89 333 0.267267 335 3962 4040 80 0 heads_default wzcagclcuxcgcsbcsexrqndvavvcptcpttcvvcqpvyuqvcynctcqqcfccyicykmdpkivdvftocctqaulcxpnqzczvfcaxgab 
+11838 div:int (none) 11802 0 1 96 89 333 0.267267 334 3952 3974 79 0 heads_default wzcagclcuxcgcsbcsexrqndvavvcptcpttcvvcqpvymqvcynctcqqcfccyicykmdpkivdvftocctqaulcxpnqzczvfcaxgab 
+11454 div:int (none) 11147 0 9 95 90 328 0.27439 323 3832 3973 77 0 heads_default wzcagclcuxcgcsbcsxrqndvavvcptcpttcvvcqpvymqvcynctcqqcfccyicykmdpkwvdvftocctqaulcxpnqzczvfcaxgab 
+11802 div:int (none) 11454 0 1 96 89 333 0.267267 333 3942 3965 78 0 heads_default wzcagclcuxcgcsbcsexrqndvavvcptcpttcvvcqpvymqvcynctcqqcfccyicykmdpkwvdvftocctqaulcxpnqzczvfcaxgab 
+11147 div:int (none) 10933 0 20 95 89 329 0.270517 314 3732 3905 76 0 heads_default wzcagclcuxcgcsbcsxrqndvavvcptcpttcvvcqpcymqvcynctcqqcfccyicykmdpkwvdvftocctqaulcxpnqzczvfcaxgab 
+10472 div:int (none) 10289 0 25 96 90 334 0.269461 294 3511 3806 71 0 heads_default wzcagclcuxcgcsbcsxrqnavavvcptcpttcvvcqpcymqvcynctcqqcqfccyicykmdpyxvdvftacctqaulcxpsqcczvfcaxgab 
+10933 div:int (none) 10901 0 5 96 90 332 0.271084 308 3667 3737 75 0 heads_default wzcagclcuxcgcsbcsxrqnavavvcptcpttcvvcqpcymqvcynctcqqcqfccyicykmdpkxvdvftocctqaulcxpnqzczvfcaxgab 
+10901 div:int (none) 10641 0 1 96 90 332 0.271084 307 3656 3675 74 0 heads_default wzcagclcuxcgcsbcsxrqnavavvcptcpttcvvcqpcymqvcynctcqqcqfccyicykmdpkxvdvftocctqaulcxpsqzczvfcaxgab 
+10641 div:int (none) 10578 0 8 96 90 333 0.27027 299 3567 3665 73 0 heads_default wzcagclcuxcgcsbcsxrqnavavvcptcpttcvvcqpcymqvcynctcqqcqfccyicykmdpkxvdvftacctqaulcxpsqzczvfcaxgab 
+10289 div:int (none) 10003 0 20 96 90 334 0.269461 289 3455 3618 70 0 heads_default wzcagclcuxcgcsbcsxrqnavavvcptcpttcvvcqpcymqvccnctcqqcqfccyicykmdpyxvdvftacctqaulcxpsqcczvfcaxgab 
+10578 div:int (none) 10472 0 1 96 90 333 0.27027 297 3545 3577 72 0 heads_default wzcagclcuxcgcsbcsxrqnavavvcptcpttcvvcqpcymqvcynctcqqcqfccyicykmdpyxvdvftacctqaulcxpsqzczvfcaxgab 
+10003 div:int (none) 9908 0 8 96 90 334 0.269461 281 3364 3485 69 0 heads_default wzcagclcuxcgcsbcsxrqnavavvcqtcpttcvvcqpcymqvccnctcqqcqfccyicykmdpyxvdvftacctqaulcxpsqcczvfcaxgab 
+9908 div:int (none) 9830 0 1 96 90 333 0.27027 278 3333 3377 68 0 heads_default wzcagclcuxcgcsbcsxrcnavavvcqtcpttcvvcqpcymqvccnctcqqcqfccyicykmdpyxvcvftacctqaulcxpsqcczvfcaxgab 
+9830 div:int (none) 9585 0 1 96 90 333 0.27027 276 3310 3333 67 0 heads_default wzcagcncuxcgcsbcsxrcnavavvcqtcpttcvvcqpcymqvccnctcqqcqfccyicykmdpyxvcvftacctqaulcxpsqcczvfcaxgab 
+9585 div:int (none) 9484 0 5 96 90 333 0.27027 269 3233 3313 66 0 heads_default wzcagcncuxcgcsbcsxrcnavavvcqtcpttcvvcqpcymqvccnctcqqckfccyicykmdpyxvcvftacctqaulcxpsqcczvfcaxgab 
+9484 div:int (none) 9354 0 2 96 90 333 0.27027 266 3199 3236 65 0 heads_default wzcagcncuxcgcsbcsxrcnavavvcqtcpttcvvcqpcymqvccnctcqcckfccyicykmdpyxvcvftacctqaulcxpsqcczvfcaxgab 
+9354 div:int (none) 9229 0 4 96 91 335 0.271642 262 3156 3202 64 0 heads_default wzcagcncuxcgcsbcsxrcnavavvcqtcpttcvvcqpcymqvccnctcqcckfccyicykmdpyxzcvftacctqaulcxpsqcczvfcaxgab 
+9229 div:int (none) 8907 0 2 96 91 335 0.271642 258 3115 3156 63 0 heads_default wzcagcncuxcgcsbcsxrcnavavvcqtcpttcvvcqpcymqvccnctcqcckfccyicykmdpyxzcvrtacctqaulcxpsqcczvfcaxgab 
+8907 div:int (none) 8801 0 12 96 91 337 0.27003 249 3012 3149 62 0 heads_default wzcagcncuxcgcsbcsxrcnfvavvcqtcpttcvvcqccymqvccnctcqcckfccyicykmdpyxzcvrtacctqaulcxpsqcczvfcaxgab 
+8801 div:int (none) 8678 0 6 96 93 342 0.27193 246 2979 3030 61 0 heads_default wzcagcncuxcgcsbcsxrcnfvcvvcqtcpttcvvcqccymqcccnctcqcckcccyicykmdpyxzcvrtacctqaulcxpsqcczvfcaxgab 
+7962 div:int (none) 7759 0 30 95 90 339 0.265487 223 2718 3027 56 0 heads_default wzcagcncuxcgcsbcsxrcnfcvvcqjcpttcvvcqccymqcccncvcqcckcccyicykmdpyxzcvrtzcctxaulcxpsqcczvfcaxgab 
+8678 div:int (none) 8599 0 3 96 93 342 0.27193 243 2943 3006 60 0 heads_default wzcagcncuxcgcsbcsxrcnfvcvvcqjcpttcvvcqccymqcccnctcqcckcccyicykmdpyxzcvrtacctqaulcxpsqcczvfcaxgab 
+8599 div:int (none) 8564 0 4 96 92 341 0.269795 241 2921 2999 59 0 heads_default wzcagcncuxcgcsbcsxrcnfvcvvcqjcpttcvvcqccymqcccnctcqcckcccyicykmdpyxzcvrtzcctqaulcxpsqcczvfcaxgab 
+8457 div:int (none) 7962 0 2 96 92 339 0.271386 237 2876 2948 57 0 heads_default wzcagcncuxcgcsbcsxrcnfvcvvcqjcpttcvvcqccymqcccncvcqcckcccyicykmdpyxzcvrtzcctxaulcxpsqcczvfcaxgab 
+8564 div:int (none) 8457 0 1 96 92 339 0.271386 240 2910 2928 58 0 heads_default wzcagcncuxcgcsbcsxrcnfvcvvcqjcpttcvvcqccymqcccncvcqcckcccyicykmdpyxzcvrtzcctqaulcxpsqcczvfcaxgab 
+7759 div:int (none) 7717 0 5 95 90 339 0.265487 218 2661 2737 55 0 heads_default wzcagcncuxcgcsbcsxrcnfcvvcqjcpttcvvcqccymqcccncvcqcckcccyicykmdpyxzcvctzcctxaulcxpsqcczvfcaxgab 
+7717 div:int (none) 7495 0 1 94 89 335 0.265672 217 2649 2666 54 0 heads_default wzcagcncuxcgcsbcsxrcnfcvvcqjcpttcvvcqccymqcccncvcqcckcccyicykmdpyxzcvctzccxaulcxpsqcczvfcaxgab 
+7495 div:int (none) 7323 0 3 94 89 334 0.266467 211 2581 2650 53 0 heads_default wzcagcncuxcgcsbcsxrcnfcvvcqjcpttcvvcqccymqcccncvcqcckcccyicykbdpyxzcvctzccxaulcxpsqcczvfcaxgab 
+7323 div:int (none) 7245 0 3 94 89 335 0.265672 206 2525 2585 52 0 heads_default wzcagcncuxcgcsbcsxrcnfcvvcqjcpttcvvcqccymqcccncvcqccccccyicykbdpyxzcvctzccxaulcxpsqcczvfcaxgab 
+7245 div:int (none) 7213 0 2 94 89 335 0.265672 204 2502 2525 51 0 heads_default wzcagcncuxcgcsbcsxrcnfcvvcqjcpttcvvcqcccmqcccncvcqccccccyicykbdpyxzcvctzccxaulcxpsqcczvfcaxgab 
+7110 div:int (none) 7074 0 2 96 91 343 0.265306 200 2458 2516 48 0 heads_default wzcagcncuxcgcsccsxrcnfcvvcqjcpttcvvccqcccmqcccncvcqccccccyicykbdpyxzcvctzccxaulcxqpsqcczvfcaxgab 
+7176 div:int (none) 7110 0 1 95 90 339 0.265487 202 2481 2512 49 0 heads_default wzcagcncuxcgcsccsxrcnfcvvcqjcpttcvvcqcccmqcccncvcqccccccyicykbdpyxzcvctzccxaulcxqpsqcczvfcaxgab 
+7213 div:int (none) 7176 0 1 95 90 339 0.265487 203 2493 2503 50 0 heads_default wzcagcncuxcgcsbcsxrcnfcvvcqjcpttcvvcqcccmqcccncvcqccccccyicykbdpyxzcvctzccxaulcxqpsqcczvfcaxgab 
+7074 div:int (none) 6804 0 1 96 91 343 0.265306 199 2446 2481 47 0 heads_default wzcagcncuxcgcsccsxrcnfcvvcqjcpttcvvccqcccmqcccncvcqccccccyccykbdpyxzcvctzccxaulcxqpsqcczvfcaxgab 
+6804 div:int (none) 6153 0 6 95 91 340 0.267647 191 2356 2467 46 0 heads_default wzcagcncuxcgcsccsxrcncccvcqjcpttcvvccqcccmqcccncvcqccccccyccykbdpyxzcvctzccxaulcqpsqcczvfcaxgab 
+6153 div:int (none) 6112 0 22 95 91 340 0.267647 172 2134 2400 45 0 heads_default wzcagcncuxcgcsccsxrcncccvcqjcpttcvvccqcccmqcccncvcqccccccoccykbdpyxzcvctzccxauccqpsqcczvfcaxgab 
+6112 div:int (none) 5883 0 1 95 91 339 0.268437 171 2123 2135 44 0 heads_default wzcagcncuxcgcsccxrcncccvcqjcpttcvvccqocccmqcccncvcqccccccoccykbdpyxzcvctzccxauccqpsqcczvfcaxgab 
+5883 div:int (none) 5817 0 8 95 91 339 0.268437 164 2041 2123 43 0 heads_default wzcagcncuxcgcsccxrcncccvcsjcpttcvvccqocccmqcccncvcqccccccoccykbdpyxzcvctzccxauccqpsqcczvfcaxgab 
+5817 div:int (none) 5704 0 1 95 91 338 0.269231 162 2020 2041 42 0 heads_default wzcagcncuxcgcsccxrcncccvcsjcpitcvvccqocccmqcccncvcqccccccoccykbdpcxzcvctzccxauccqpsqcczvfcaxgab 
+5704 div:int (none) 5529 0 4 95 91 338 0.269231 159 1985 2032 41 0 heads_default wzcagcncuxcgcsccxrcncccvcsccpitcvvccqocccmqcccncvcqccccccoccykbdpcxzcvctzccxauccqpsqcczvfcaxgab 
+5306 div:int (none) 5198 0 15 95 91 338 0.269231 148 1854 2030 38 0 heads_default wzcagcecuxcucsccxrcncccvcsccpitcvvccqocccmqcccncvcqccccccoccykbdccxzcvctzccxauccqpsqcczvfcaxgab 
+5412 div:int (none) 5306 0 6 95 91 338 0.269231 151 1890 2011 39 0 heads_default wzcagcncuxcucsccxrcncccvcsccpitcvvccqocccmqcccncvcqccccccoccykbdccxzcvctzccxauccqpsqcczvfcaxgab 
+5529 div:int (none) 5412 0 2 95 91 338 0.269231 154 1926 2006 40 0 heads_default wzcagcncuxcucsccxrcncccvcsccpitcvvccqocccmqcccncvcqccccccoccykbdpcxzcvctzccxauccqpsqcczvfcaxgab 
+5198 div:int (none) 5060 0 7 95 91 338 0.269231 145 1820 1878 37 0 heads_default wzcagcecuxcucsccxrcncccvcsccpitcvvccqocccmqcccncvcqccccccoccykbdccxzcvctzccxauccqpkqcczvfcaxgab 
+5060 div:int (none) 5032 0 2 95 91 338 0.269231 141 1772 1834 36 0 heads_default wzcagcecuxcucsccxrcncccvcsccpitcvvccqicccmqcccncvcqccccccoccykbsccxzcvctzccxauccqpkqcczvfcaxgab 
+5032 div:int (none) 4900 0 1 95 91 339 0.268437 140 1759 1774 35 0 heads_default wzcagcecuxcucsccxrcncccvccccpitcvvccqicccmqcccncvcqccccccoccykbsccxzcvctzccxauccqpkqcczvfcaxgab 
+4900 div:int (none) 4753 0 3 95 91 338 0.269231 136 1711 1772 34 0 heads_default wzcagcecuccucsccxrcncccvccccpitcvvccqicccmqcccncvcqccccccoccykbsccxzcvctzccxauccqpkqcczvfcaxgab 
+4753 div:int (none) 4680 0 4 95 91 338 0.269231 132 1661 1723 33 0 heads_default wzcagcecuccucsccxrcncccvccccpitcvvccqicccmqcccncvcqccccccoccykbsccczcvctzccxauccqpkqcczvfcaxgab 
+4499 div:int (none) 4395 0 8 95 91 341 0.266862 125 1573 1721 31 0 heads_default wzcagcecuccucsccxrcncccvccccpitccvccqicccmqcccncvcqccccccoccykbsccczcvcjzccxauccqpkqcczvfcaxgab 
+4680 div:int (none) 4499 0 1 95 91 341 0.266862 130 1634 1675 32 0 heads_default wzcagcecuccucsccxrcncccvccccpitccvccqicccmqcccncvcqccccccoccykbsccczcvctzccxauccqpkqcczvfcaxgab 
+4395 div:int (none) 4171 0 8 96 92 344 0.267442 122 1537 1635 30 0 heads_default wzcagcecuccucscccxrcncccvccccpicccvccqicccmqcccncvcnccccccoccykbsccczcvcjzccxauccqpkqcczvfcaxgab 
+3870 div:int (none) 3832 0 18 96 92 344 0.267442 108 1355 1558 28 0 heads_default wzcagcecuccucscccxrcncccvccccpicccvccqicccmccccccvcnccccccoccykbsccczcvcjzccxacccqpkccczvfcaxgab 
+4171 div:int (none) 3870 0 6 96 92 344 0.267442 116 1457 1546 29 0 heads_default wzcagcecuccucscccxrcncccvccccpicccvccqicccmqcccncvcnccccccoccykbsccczcvcjzccxacccqpkccczvfcaxgab 
+3832 div:int (none) 3316 0 1 96 92 345 0.266667 107 1342 1355 27 0 heads_default wzcagcecuccucscccxrcncccvccccpicccvccqicccmccccccvcncccccccccykbsccczcvcjzccxacccqpkccczvfcaxgab 
+3316 div:int (none) 3235 0 12 95 91 345 0.263768 93 1166 1348 26 0 heads_default wzcagcecuccucscccxrcncccvccccpicccvccqicccmcccccccccccccccccykbsccczcvcjzccxacccqpkccczvfcaxgab 
+3235 div:int (none) 3166 0 2 95 92 345 0.266667 91 1141 1189 25 0 heads_default wzcagcecuccucscccxrcncccvccccpicccvccqicccmcccccccccccccccccykbcccczcvcjvcccacccqpkccczvfcaxgab 
+3166 div:int (none) 2910 0 1 95 92 347 0.26513 89 1115 1143 24 0 heads_default wzcagcecuccucscccxrcncccgccccpccccvccqicccmcccccccccccccccccykbcccczcvcjvcccacccqpkccczvfcaxgab 
+2910 div:int (none) 2750 0 7 96 93 351 0.264957 83 1040 1128 23 0 heads_default wzcagcecuccuckcccxrcncccgccccpccccvccqicccmcccccccccccccccccckbccccczcvcjvcccacccqpkccczvfcaxgab 
+2750 div:int (none) 2718 0 3 97 94 355 0.264789 79 992 1064 22 0 heads_default wzcagcecuccuckccccxrcncccgccccpccccvccqicccmcccccccccccccccccckbccccczcvcjvcccacccqpcccczvfcaxgab 
+2567 div:int (none) 2524 0 6 97 94 360 0.261111 74 932 1030 19 0 heads_default wzcagcecuccuckcccccrcnccccccccpcccccccqicccmcccccccccccccccccckucccccccvccvcccacccqpcccczvfcaxgab 
+2490 div:int (none) 2267 0 5 97 94 363 0.258953 72 909 1016 17 0 heads_default wzcagcecuccuckcccccrcnccccccccpcccccccqicccmcccccccccccccccccckjccccccccccvcccacccqpcccczvfcaxgab 
+2643 div:int (none) 2567 0 1 97 94 359 0.261838 76 957 1004 20 0 heads_default wzcagcecuccuckcccccrcncccgccccpcccccccqicccmcccccccccccccccccckucccccccvccvcccacccqpcccczvfcaxgab 
+2718 div:int (none) 2643 0 1 97 94 355 0.264789 78 981 993 21 0 heads_default wzcagcecuccuckcccccrcncccgccccpccccvccqicccmcccccccccccccccccckuccccczcvccvcccacccqpcccczvfcaxgab 
+2229 div:int (none) 2034 0 8 97 94 363 0.258953 65 820 967 15 0 heads_default wzcagcecuccucrcccccrcnccccccccpcccccccqicccmcccccccccccccccccckjccccccccccvcccaccccpcccczvfcaxgab 
+2267 div:int (none) 2229 0 8 97 94 363 0.258953 66 834 933 16 0 heads_default wzcagcecuccuckcccccrcnccccccccpcccccccqicccmcccccccccccccccccckjccccccccccvcccaccccpcccczvfcaxgab 
+2524 div:int (none) 2490 0 1 97 94 360 0.261111 73 920 932 18 0 heads_default wzcagcecuccuckcccccrcnccccccccpcccccccqicccmcccccccccccccccccckjcccccccvccvcccacccqpcccczvfcaxgab 
+2034 div:int (none) 2005 0 2 97 94 364 0.258242 60 752 820 14 0 heads_default wzcagcecuccucrcccccrccccccccccpcccccccqicccmcccccccccccccccccckjccccccccccvcccaccccpcccczvfcaxgab 
+1928 div:int (none) 1780 0 4 98 95 369 0.257453 57 716 771 12 0 heads_default wzcagcecuccuccrcccccrccccccccccpcccccccqicccccccccccccccccccccckcccccccccccvcccaccccpcccczvfcaxgab 
+2005 div:int (none) 1928 0 1 98 95 369 0.257453 59 741 752 13 0 heads_default wzcagcecuccuccrcccccrccccccccccpcccccccqicccccccccccccccccccccckjccccccccccvcccaccccpcccczvfcaxgab 
+1780 div:int (none) 1708 0 2 98 95 370 0.256757 53 665 729 11 0 heads_default wzcagcecupcuccrcccccrccccccccccpcccccccqccccccccccccccccccccccckcccccccccccvcccaccccpcccczvfcaxgab 
+1708 div:int (none) 1215 0 2 98 95 370 0.256757 51 641 671 10 0 heads_default wzcagcecupcuccrcccccrccccccccccpccccccccccccccccccccccccccccccckcccccccccccvcccaccccpcccczvfcaxgab 
+1215 div:int (none) 736 0 11 98 95 371 0.256065 39 490 648 9 0 heads_default wzcagcecupcuccrccccccccccccccccpccccccccccccccccccccccccccccccckcccccccccccvcccaccccpcccczvfcaxgab 
+736 div:int (none) 705 0 23 98 95 375 0.253333 26 330 638 8 0 heads_default wzcagcecupccccrccccccccccccccccpccccccccccccccccccccccccccccccckcccccccccccccccaccccpcccczvfcaxgab 
+584 div:int (none) 505 0 3 98 95 378 0.251323 22 279 332 6 0 heads_default wzcagcecupcccccccccccccccccccccpcccccccccccccccccccccccccccccccccccccccccccccccaccccccccczvfcaxgab 
+705 div:int (none) 584 0 1 98 95 376 0.25266 25 317 331 7 0 heads_default wzcagcecupcccccccccccccccccccccpccccccccccccccccccccccccccccccckcccccccccccccccaccccpcccczvfcaxgab 
+505 div:int (none) 458 0 3 99 96 382 0.251309 20 254 305 5 0 heads_default wzcagcecupccccccccccccccccccccccpcccccccccccccccccccccccccccccccccccccccccccccccaccccccccczvfcaxgab 
+458 div:int (none) 273 0 1 99 96 382 0.251309 19 242 254 4 0 heads_default wzcagcecupccccccccccccccccccccccpccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1 div:ext (none) (none) 0 34 100 97 389 0.249357 0 -1 248 0 0 heads_default wzcagcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+273 div:int (none) 121 0 4 99 96 382 0.251309 14 178 245 3 0 heads_default wzcagceccpccccccccccccccccccccccpccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+121 div:int (none) 12 0 8 99 96 383 0.250653 10 129 203 2 0 heads_default wzcagceccpcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+12 div:int (none) 1 0 4 99 96 384 0.25 5 65 165 1 0 heads_default wzcagceccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
