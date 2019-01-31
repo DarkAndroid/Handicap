@@ -1,0 +1,94 @@
+// Initial random seed:
+1591245535055
+
+// RunInitializeCallbacks():
+initializeMutationType(0, 0.5, "f", 0.0260794);
+initializeMutationType(1, 0.5, "f", 0.0159813);
+initializeMutationType(2, 0.5, "f", -0.0266075);
+initializeMutationType(3, 0.5, "f", 0.0172989);
+initializeGenomicElementType(0, c(m0, m1, m2, m3), c(1, 1, 1, 1));
+initializeGenomicElement(g0, 0, 0);
+initializeMutationType(4, 0.5, "f", -0.0314858);
+initializeMutationType(5, 0.5, "f", 0.0501828);
+initializeMutationType(6, 0.5, "f", 0.0439293);
+initializeMutationType(7, 0.5, "f", 0.00665542);
+initializeGenomicElementType(1, c(m4, m5, m6, m7), c(1, 1, 1, 1));
+initializeGenomicElement(g1, 1, 1);
+initializeMutationType(8, 0.5, "f", 0.0128615);
+initializeMutationType(9, 0.5, "f", -0.00252479);
+initializeMutationType(10, 0.5, "f", -0.00253602);
+initializeMutationType(11, 0.5, "f", -0.120073);
+initializeGenomicElementType(2, c(m8, m9, m10, m11), c(1, 1, 1, 1));
+initializeGenomicElement(g2, 2, 2);
+initializeMutationType(12, 0.5, "f", 0.0506167);
+initializeMutationType(13, 0.5, "f", -0.0313086);
+initializeMutationType(14, 0.5, "f", 0.048541);
+initializeMutationType(15, 0.5, "f", -0.054328);
+initializeGenomicElementType(3, c(m12, m13, m14, m15), c(1, 1, 1, 1));
+initializeGenomicElement(g3, 3, 3);
+initializeMutationType(16, 0.5, "f", 0.0892893);
+initializeMutationType(17, 0.5, "f", -0.00506074);
+initializeMutationType(18, 0.5, "f", -0.00568722);
+initializeMutationType(19, 0.5, "f", 0.080539);
+initializeGenomicElementType(4, c(m16, m17, m18, m19), c(1, 1, 1, 1));
+initializeGenomicElement(g4, 4, 4);
+initializeMutationType(20, 0.5, "f", 0.0557613);
+initializeMutationType(21, 0.5, "f", 0.0701016);
+initializeMutationType(22, 0.5, "f", -0.039422);
+initializeMutationType(23, 0.5, "f", 0.0778349);
+initializeGenomicElementType(5, c(m20, m21, m22, m23), c(1, 1, 1, 1));
+initializeGenomicElement(g5, 5, 5);
+initializeMutationType(24, 0.5, "f", -0.0381183);
+initializeMutationType(25, 0.5, "f", -0.0559467);
+initializeMutationType(26, 0.5, "f", 0.0293228);
+initializeMutationType(27, 0.5, "f", -0.0336851);
+initializeGenomicElementType(6, c(m24, m25, m26, m27), c(1, 1, 1, 1));
+initializeGenomicElement(g6, 6, 6);
+initializeMutationType(28, 0.5, "f", 0.0348382);
+initializeMutationType(29, 0.5, "f", -0.0746558);
+initializeMutationType(30, 0.5, "f", -0.0329644);
+initializeMutationType(31, 0.5, "f", 0.00393392);
+initializeGenomicElementType(7, c(m28, m29, m30, m31), c(1, 1, 1, 1));
+initializeGenomicElement(g7, 7, 7);
+initializeMutationType(32, 0.5, "f", -0.0121404);
+initializeMutationType(33, 0.5, "f", 0.0222519);
+initializeMutationType(34, 0.5, "f", 0.0482091);
+initializeMutationType(35, 0.5, "f", 0.0935389);
+initializeGenomicElementType(8, c(m32, m33, m34, m35), c(1, 1, 1, 1));
+initializeGenomicElement(g8, 8, 8);
+initializeMutationType(36, 0.5, "f", -0.0371346);
+initializeMutationType(37, 0.5, "f", 0.0360093);
+initializeMutationType(38, 0.5, "f", -0.083864);
+initializeMutationType(39, 0.5, "f", -0.00814582);
+initializeGenomicElementType(9, c(m36, m37, m38, m39), c(1, 1, 1, 1));
+initializeGenomicElement(g9, 9, 9);
+initializeMutationRate(1e-06);
+initializeRecombinationRate(1e-08);
+
+// Starting run at generation <start>:
+1 
+
+Initial nucleotide sequence: G T A C T T G A C G
+
+Base position 0:
+   C: 3346 / 4000 (83.7%), s == 0.0172989
+   A: 654 / 4000 (16.4%), s == 0.0260794
+Base position 1:
+   T: 4000 / 4000 (100.0%), s == 0.0501828
+Base position 2:
+   A: 4000 / 4000 (100.0%), s == 0.0128615
+Base position 3:
+   G: 4000 / 4000 (100.0%), s == 0.048541
+Base position 4:
+   C: 4000 / 4000 (100.0%), s == 0.080539
+Base position 5:
+   T: 4000 / 4000 (100.0%), s == 0.0701016
+Base position 6:
+   G: 4000 / 4000 (100.0%), s == 0.0293228
+Base position 7:
+   A: 4000 / 4000 (100.0%), s == 0.0348382
+Base position 8:
+   C: 4000 / 4000 (100.0%), s == 0.0935389
+Base position 9:
+   C: 4000 / 4000 (100.0%), s == -0.00814582
+
