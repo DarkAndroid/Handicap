@@ -87,7 +87,7 @@ for p in pszs:
                         reps.write("inds = subpop.individuals;\n")
                         reps.write("c1 = sum(inds.countOfMutationsOfType(m1)) %s s;\n" % ("%"))
 
-                        #reps.write("oldMuts = inds.mutationsOfType(m1);\n")
+                        
 
                         reps.write("writeFile(\"sims/sim%s.out\", \"%s \" + c1, append=T);\n" % (n,i*100-1))
                         #reps.write("catn(\"%s \" + c1);\n" % (i*100))
@@ -105,16 +105,10 @@ for p in pszs:
                         reps.write("inds = subpop.individuals;\n")
                         reps.write("c1 = sum(inds.countOfMutationsOfType(m1)) %s s;\n" % ("%"))
 
-                        
-                        #reps.write("newMuts = inds.mutationsOfType(m1);\n")
 
-                        #reps.write("for (newMut in newMuts);\n")  
-                        #reps.write("    {\n")
-                        #reps.write("    newMutLocus = newMut.position;\n")     
-                        #reps.write("    oldLocus = oldMuts[oldMutsPositions == newMutLocus];\n")   
-                        #reps.write("    diff = (*)setDifference(*x, *y);\n") 
-                        #reps.write("    catn(\" \" + diff);\n")
-                        #reps.write("    }\n")    
+                        #reps.write("diff = (*)setDifference(*x, *y);\n") 
+                        #reps.write("catn(\" \" + diff);\n")
+
                         
                         reps.write("writeFile(\"sims/sim%s.out\", \"%s \" + c1, append=T);\n" % (n,i*100))
                         #reps.write("catn(\"%s \" + c1);\n" % (i*100))
