@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 mrts = ["1e-09"]    #  ["1e-09","1e-08","1e-07"]            1e-7 или 0.0000001 => от 1/kkk (1e-06 peregruzka po pamyati)
-eps = [0.00001]
+eps = [0.00001,0.000001]
 gszs = [9999]
 pszs = [10000]
 
@@ -21,7 +21,7 @@ for p in pszs:
     for g in gszs:
         for e in eps:
             for m in mrts:
-                for j in range(1):
+                for j in range(9):
 
 
                     # GENERATE SIMULATIONS
@@ -49,7 +49,9 @@ for p in pszs:
                     reps.write("	initializeMutationType(\"m1\", 0.5, \"f\", -%s);\n" % (e*j)) # normal ?  itializeMutationType("m2", 0.5, "n", 0.0, 1.0);   // QTL
 				
 				    #// Off fixation of mutations
-                    reps.write("	m1.convertToSubstitution = F;\n")
+                    reps.write("    m1.mutationStackPolicy = \"l\";\n")  
+                    reps.write("    m1.mutationStackGroup = -1;\n")  
+                    reps.write("    m1.convertToSubstitution = F;\n")
 
                     #// g1 genomic element type: uses m1 for all mutations
                     reps.write("	initializeGenomicElementType(\"g1\", m1, 1.0);\n")
