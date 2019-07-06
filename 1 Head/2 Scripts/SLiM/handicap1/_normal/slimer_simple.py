@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 mrts = ["1e-05","1e-06"]    #  ["1e-09","1e-08","1e-07"]            1e-7 или 0.0000001 => от 1/kkk (1e-06 peregruzka po pamyati)
 eps = ["1e-01","1e-02","1e-03"]
-hans = {"1e-01": "0", "1e-02": "0", "1e-03": "0"}
+hans = {"1e-01": "100", "1e-02": "10", "1e-03": "1"}
 gszs = [99999]
 pszs = [10000]# [100000]
 gnrtn = 1000
@@ -52,8 +52,7 @@ for p in pszs:
                     reps.write("	initializeMutationType(\"m1\", 0.5, \"f\", -%s);\n" % e) # normal ?  itializeMutationType("m2", 0.5, "n", 0.0, 1.0);   // QTL
 
 
-                    reps.write("	scriptForHandicap = \"if (runif(1) < 1) -%s; else 0.0; \";\n" % (hans.get(e)) ) 
-                    reps.write("	initializeMutationType(\"m2\", 0.5, \"s\", scriptForHandicap);\n")
+
 
 
                     #reps.write("	initializeMutationType(\"m2\", 0.5, \"f\", -%s);\n" % e*100) # normal ?  itializeMutationType("m2", 0.5, "n", 0.0, 1.0);   // QTL
@@ -61,10 +60,10 @@ for p in pszs:
 				
 				    #// Off fixation of mutations
                     reps.write("	m1.convertToSubstitution = F;\n")
-                    reps.write("	m2.convertToSubstitution = F;\n")
+
 
                     #// g1 genomic element type: uses m1 for all mutations
-                    reps.write("	initializeGenomicElementType(\"g1\", c(m1,m2), c(1.0,1.0));\n")
+                    reps.write("	initializeGenomicElementType(\"g1\", m1, 1.0);\n")
 	
                     #// uniform chromosome of length 100 kb with uniform recombination
                     reps.write("	initializeGenomicElement(g1, 0, %s);\n" % g)

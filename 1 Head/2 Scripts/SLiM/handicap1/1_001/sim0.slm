@@ -1,0 +1,6011 @@
+initialize() {
+	initializeMutationRate(1e-05);
+	initializeMutationType("m1", 0.5, "f", -1e-01);
+	scriptForHandicap = "if (runif(1) < 0.01) -100; else 0.0; ";
+	initializeMutationType("m2", 0.5, "s", scriptForHandicap);
+	m1.convertToSubstitution = F;
+	m2.convertToSubstitution = F;
+	initializeGenomicElementType("g1", c(m1,m2), c(1.0,1.0));
+	initializeGenomicElement(g1, 0, 99999);
+	initializeRecombinationRate(1e-8);
+}1 {	sim.addSubpop("p1", 10000);
+}1 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "1 " + c1, append=T);
+}
+2 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "2 " + c1, append=T);
+}
+3 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "3 " + c1, append=T);
+}
+4 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "4 " + c1, append=T);
+}
+5 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "5 " + c1, append=T);
+}
+6 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "6 " + c1, append=T);
+}
+7 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "7 " + c1, append=T);
+}
+8 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "8 " + c1, append=T);
+}
+9 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "9 " + c1, append=T);
+}
+10 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "10 " + c1, append=T);
+}
+11 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "11 " + c1, append=T);
+}
+12 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "12 " + c1, append=T);
+}
+13 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "13 " + c1, append=T);
+}
+14 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "14 " + c1, append=T);
+}
+15 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "15 " + c1, append=T);
+}
+16 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "16 " + c1, append=T);
+}
+17 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "17 " + c1, append=T);
+}
+18 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "18 " + c1, append=T);
+}
+19 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "19 " + c1, append=T);
+}
+20 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "20 " + c1, append=T);
+}
+21 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "21 " + c1, append=T);
+}
+22 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "22 " + c1, append=T);
+}
+23 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "23 " + c1, append=T);
+}
+24 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "24 " + c1, append=T);
+}
+25 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "25 " + c1, append=T);
+}
+26 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "26 " + c1, append=T);
+}
+27 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "27 " + c1, append=T);
+}
+28 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "28 " + c1, append=T);
+}
+29 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "29 " + c1, append=T);
+}
+30 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "30 " + c1, append=T);
+}
+31 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "31 " + c1, append=T);
+}
+32 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "32 " + c1, append=T);
+}
+33 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "33 " + c1, append=T);
+}
+34 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "34 " + c1, append=T);
+}
+35 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "35 " + c1, append=T);
+}
+36 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "36 " + c1, append=T);
+}
+37 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "37 " + c1, append=T);
+}
+38 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "38 " + c1, append=T);
+}
+39 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "39 " + c1, append=T);
+}
+40 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "40 " + c1, append=T);
+}
+41 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "41 " + c1, append=T);
+}
+42 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "42 " + c1, append=T);
+}
+43 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "43 " + c1, append=T);
+}
+44 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "44 " + c1, append=T);
+}
+45 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "45 " + c1, append=T);
+}
+46 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "46 " + c1, append=T);
+}
+47 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "47 " + c1, append=T);
+}
+48 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "48 " + c1, append=T);
+}
+49 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "49 " + c1, append=T);
+}
+50 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "50 " + c1, append=T);
+}
+51 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "51 " + c1, append=T);
+}
+52 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "52 " + c1, append=T);
+}
+53 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "53 " + c1, append=T);
+}
+54 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "54 " + c1, append=T);
+}
+55 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "55 " + c1, append=T);
+}
+56 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "56 " + c1, append=T);
+}
+57 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "57 " + c1, append=T);
+}
+58 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "58 " + c1, append=T);
+}
+59 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "59 " + c1, append=T);
+}
+60 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "60 " + c1, append=T);
+}
+61 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "61 " + c1, append=T);
+}
+62 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "62 " + c1, append=T);
+}
+63 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "63 " + c1, append=T);
+}
+64 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "64 " + c1, append=T);
+}
+65 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "65 " + c1, append=T);
+}
+66 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "66 " + c1, append=T);
+}
+67 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "67 " + c1, append=T);
+}
+68 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "68 " + c1, append=T);
+}
+69 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "69 " + c1, append=T);
+}
+70 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "70 " + c1, append=T);
+}
+71 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "71 " + c1, append=T);
+}
+72 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "72 " + c1, append=T);
+}
+73 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "73 " + c1, append=T);
+}
+74 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "74 " + c1, append=T);
+}
+75 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "75 " + c1, append=T);
+}
+76 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "76 " + c1, append=T);
+}
+77 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "77 " + c1, append=T);
+}
+78 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "78 " + c1, append=T);
+}
+79 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "79 " + c1, append=T);
+}
+80 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "80 " + c1, append=T);
+}
+81 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "81 " + c1, append=T);
+}
+82 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "82 " + c1, append=T);
+}
+83 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "83 " + c1, append=T);
+}
+84 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "84 " + c1, append=T);
+}
+85 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "85 " + c1, append=T);
+}
+86 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "86 " + c1, append=T);
+}
+87 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "87 " + c1, append=T);
+}
+88 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "88 " + c1, append=T);
+}
+89 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "89 " + c1, append=T);
+}
+90 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "90 " + c1, append=T);
+}
+91 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "91 " + c1, append=T);
+}
+92 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "92 " + c1, append=T);
+}
+93 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "93 " + c1, append=T);
+}
+94 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "94 " + c1, append=T);
+}
+95 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "95 " + c1, append=T);
+}
+96 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "96 " + c1, append=T);
+}
+97 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "97 " + c1, append=T);
+}
+98 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "98 " + c1, append=T);
+}
+99 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "99 " + c1, append=T);
+}
+100 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "100 " + c1, append=T);
+}
+101 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "101 " + c1, append=T);
+}
+102 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "102 " + c1, append=T);
+}
+103 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "103 " + c1, append=T);
+}
+104 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "104 " + c1, append=T);
+}
+105 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "105 " + c1, append=T);
+}
+106 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "106 " + c1, append=T);
+}
+107 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "107 " + c1, append=T);
+}
+108 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "108 " + c1, append=T);
+}
+109 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "109 " + c1, append=T);
+}
+110 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "110 " + c1, append=T);
+}
+111 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "111 " + c1, append=T);
+}
+112 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "112 " + c1, append=T);
+}
+113 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "113 " + c1, append=T);
+}
+114 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "114 " + c1, append=T);
+}
+115 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "115 " + c1, append=T);
+}
+116 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "116 " + c1, append=T);
+}
+117 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "117 " + c1, append=T);
+}
+118 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "118 " + c1, append=T);
+}
+119 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "119 " + c1, append=T);
+}
+120 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "120 " + c1, append=T);
+}
+121 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "121 " + c1, append=T);
+}
+122 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "122 " + c1, append=T);
+}
+123 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "123 " + c1, append=T);
+}
+124 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "124 " + c1, append=T);
+}
+125 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "125 " + c1, append=T);
+}
+126 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "126 " + c1, append=T);
+}
+127 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "127 " + c1, append=T);
+}
+128 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "128 " + c1, append=T);
+}
+129 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "129 " + c1, append=T);
+}
+130 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "130 " + c1, append=T);
+}
+131 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "131 " + c1, append=T);
+}
+132 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "132 " + c1, append=T);
+}
+133 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "133 " + c1, append=T);
+}
+134 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "134 " + c1, append=T);
+}
+135 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "135 " + c1, append=T);
+}
+136 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "136 " + c1, append=T);
+}
+137 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "137 " + c1, append=T);
+}
+138 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "138 " + c1, append=T);
+}
+139 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "139 " + c1, append=T);
+}
+140 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "140 " + c1, append=T);
+}
+141 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "141 " + c1, append=T);
+}
+142 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "142 " + c1, append=T);
+}
+143 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "143 " + c1, append=T);
+}
+144 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "144 " + c1, append=T);
+}
+145 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "145 " + c1, append=T);
+}
+146 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "146 " + c1, append=T);
+}
+147 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "147 " + c1, append=T);
+}
+148 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "148 " + c1, append=T);
+}
+149 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "149 " + c1, append=T);
+}
+150 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "150 " + c1, append=T);
+}
+151 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "151 " + c1, append=T);
+}
+152 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "152 " + c1, append=T);
+}
+153 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "153 " + c1, append=T);
+}
+154 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "154 " + c1, append=T);
+}
+155 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "155 " + c1, append=T);
+}
+156 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "156 " + c1, append=T);
+}
+157 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "157 " + c1, append=T);
+}
+158 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "158 " + c1, append=T);
+}
+159 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "159 " + c1, append=T);
+}
+160 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "160 " + c1, append=T);
+}
+161 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "161 " + c1, append=T);
+}
+162 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "162 " + c1, append=T);
+}
+163 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "163 " + c1, append=T);
+}
+164 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "164 " + c1, append=T);
+}
+165 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "165 " + c1, append=T);
+}
+166 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "166 " + c1, append=T);
+}
+167 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "167 " + c1, append=T);
+}
+168 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "168 " + c1, append=T);
+}
+169 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "169 " + c1, append=T);
+}
+170 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "170 " + c1, append=T);
+}
+171 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "171 " + c1, append=T);
+}
+172 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "172 " + c1, append=T);
+}
+173 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "173 " + c1, append=T);
+}
+174 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "174 " + c1, append=T);
+}
+175 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "175 " + c1, append=T);
+}
+176 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "176 " + c1, append=T);
+}
+177 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "177 " + c1, append=T);
+}
+178 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "178 " + c1, append=T);
+}
+179 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "179 " + c1, append=T);
+}
+180 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "180 " + c1, append=T);
+}
+181 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "181 " + c1, append=T);
+}
+182 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "182 " + c1, append=T);
+}
+183 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "183 " + c1, append=T);
+}
+184 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "184 " + c1, append=T);
+}
+185 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "185 " + c1, append=T);
+}
+186 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "186 " + c1, append=T);
+}
+187 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "187 " + c1, append=T);
+}
+188 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "188 " + c1, append=T);
+}
+189 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "189 " + c1, append=T);
+}
+190 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "190 " + c1, append=T);
+}
+191 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "191 " + c1, append=T);
+}
+192 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "192 " + c1, append=T);
+}
+193 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "193 " + c1, append=T);
+}
+194 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "194 " + c1, append=T);
+}
+195 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "195 " + c1, append=T);
+}
+196 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "196 " + c1, append=T);
+}
+197 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "197 " + c1, append=T);
+}
+198 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "198 " + c1, append=T);
+}
+199 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "199 " + c1, append=T);
+}
+200 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "200 " + c1, append=T);
+}
+201 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "201 " + c1, append=T);
+}
+202 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "202 " + c1, append=T);
+}
+203 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "203 " + c1, append=T);
+}
+204 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "204 " + c1, append=T);
+}
+205 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "205 " + c1, append=T);
+}
+206 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "206 " + c1, append=T);
+}
+207 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "207 " + c1, append=T);
+}
+208 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "208 " + c1, append=T);
+}
+209 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "209 " + c1, append=T);
+}
+210 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "210 " + c1, append=T);
+}
+211 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "211 " + c1, append=T);
+}
+212 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "212 " + c1, append=T);
+}
+213 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "213 " + c1, append=T);
+}
+214 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "214 " + c1, append=T);
+}
+215 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "215 " + c1, append=T);
+}
+216 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "216 " + c1, append=T);
+}
+217 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "217 " + c1, append=T);
+}
+218 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "218 " + c1, append=T);
+}
+219 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "219 " + c1, append=T);
+}
+220 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "220 " + c1, append=T);
+}
+221 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "221 " + c1, append=T);
+}
+222 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "222 " + c1, append=T);
+}
+223 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "223 " + c1, append=T);
+}
+224 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "224 " + c1, append=T);
+}
+225 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "225 " + c1, append=T);
+}
+226 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "226 " + c1, append=T);
+}
+227 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "227 " + c1, append=T);
+}
+228 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "228 " + c1, append=T);
+}
+229 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "229 " + c1, append=T);
+}
+230 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "230 " + c1, append=T);
+}
+231 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "231 " + c1, append=T);
+}
+232 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "232 " + c1, append=T);
+}
+233 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "233 " + c1, append=T);
+}
+234 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "234 " + c1, append=T);
+}
+235 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "235 " + c1, append=T);
+}
+236 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "236 " + c1, append=T);
+}
+237 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "237 " + c1, append=T);
+}
+238 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "238 " + c1, append=T);
+}
+239 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "239 " + c1, append=T);
+}
+240 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "240 " + c1, append=T);
+}
+241 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "241 " + c1, append=T);
+}
+242 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "242 " + c1, append=T);
+}
+243 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "243 " + c1, append=T);
+}
+244 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "244 " + c1, append=T);
+}
+245 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "245 " + c1, append=T);
+}
+246 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "246 " + c1, append=T);
+}
+247 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "247 " + c1, append=T);
+}
+248 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "248 " + c1, append=T);
+}
+249 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "249 " + c1, append=T);
+}
+250 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "250 " + c1, append=T);
+}
+251 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "251 " + c1, append=T);
+}
+252 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "252 " + c1, append=T);
+}
+253 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "253 " + c1, append=T);
+}
+254 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "254 " + c1, append=T);
+}
+255 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "255 " + c1, append=T);
+}
+256 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "256 " + c1, append=T);
+}
+257 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "257 " + c1, append=T);
+}
+258 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "258 " + c1, append=T);
+}
+259 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "259 " + c1, append=T);
+}
+260 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "260 " + c1, append=T);
+}
+261 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "261 " + c1, append=T);
+}
+262 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "262 " + c1, append=T);
+}
+263 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "263 " + c1, append=T);
+}
+264 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "264 " + c1, append=T);
+}
+265 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "265 " + c1, append=T);
+}
+266 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "266 " + c1, append=T);
+}
+267 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "267 " + c1, append=T);
+}
+268 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "268 " + c1, append=T);
+}
+269 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "269 " + c1, append=T);
+}
+270 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "270 " + c1, append=T);
+}
+271 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "271 " + c1, append=T);
+}
+272 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "272 " + c1, append=T);
+}
+273 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "273 " + c1, append=T);
+}
+274 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "274 " + c1, append=T);
+}
+275 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "275 " + c1, append=T);
+}
+276 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "276 " + c1, append=T);
+}
+277 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "277 " + c1, append=T);
+}
+278 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "278 " + c1, append=T);
+}
+279 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "279 " + c1, append=T);
+}
+280 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "280 " + c1, append=T);
+}
+281 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "281 " + c1, append=T);
+}
+282 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "282 " + c1, append=T);
+}
+283 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "283 " + c1, append=T);
+}
+284 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "284 " + c1, append=T);
+}
+285 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "285 " + c1, append=T);
+}
+286 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "286 " + c1, append=T);
+}
+287 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "287 " + c1, append=T);
+}
+288 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "288 " + c1, append=T);
+}
+289 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "289 " + c1, append=T);
+}
+290 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "290 " + c1, append=T);
+}
+291 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "291 " + c1, append=T);
+}
+292 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "292 " + c1, append=T);
+}
+293 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "293 " + c1, append=T);
+}
+294 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "294 " + c1, append=T);
+}
+295 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "295 " + c1, append=T);
+}
+296 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "296 " + c1, append=T);
+}
+297 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "297 " + c1, append=T);
+}
+298 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "298 " + c1, append=T);
+}
+299 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "299 " + c1, append=T);
+}
+300 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "300 " + c1, append=T);
+}
+301 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "301 " + c1, append=T);
+}
+302 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "302 " + c1, append=T);
+}
+303 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "303 " + c1, append=T);
+}
+304 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "304 " + c1, append=T);
+}
+305 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "305 " + c1, append=T);
+}
+306 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "306 " + c1, append=T);
+}
+307 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "307 " + c1, append=T);
+}
+308 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "308 " + c1, append=T);
+}
+309 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "309 " + c1, append=T);
+}
+310 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "310 " + c1, append=T);
+}
+311 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "311 " + c1, append=T);
+}
+312 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "312 " + c1, append=T);
+}
+313 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "313 " + c1, append=T);
+}
+314 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "314 " + c1, append=T);
+}
+315 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "315 " + c1, append=T);
+}
+316 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "316 " + c1, append=T);
+}
+317 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "317 " + c1, append=T);
+}
+318 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "318 " + c1, append=T);
+}
+319 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "319 " + c1, append=T);
+}
+320 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "320 " + c1, append=T);
+}
+321 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "321 " + c1, append=T);
+}
+322 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "322 " + c1, append=T);
+}
+323 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "323 " + c1, append=T);
+}
+324 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "324 " + c1, append=T);
+}
+325 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "325 " + c1, append=T);
+}
+326 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "326 " + c1, append=T);
+}
+327 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "327 " + c1, append=T);
+}
+328 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "328 " + c1, append=T);
+}
+329 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "329 " + c1, append=T);
+}
+330 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "330 " + c1, append=T);
+}
+331 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "331 " + c1, append=T);
+}
+332 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "332 " + c1, append=T);
+}
+333 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "333 " + c1, append=T);
+}
+334 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "334 " + c1, append=T);
+}
+335 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "335 " + c1, append=T);
+}
+336 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "336 " + c1, append=T);
+}
+337 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "337 " + c1, append=T);
+}
+338 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "338 " + c1, append=T);
+}
+339 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "339 " + c1, append=T);
+}
+340 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "340 " + c1, append=T);
+}
+341 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "341 " + c1, append=T);
+}
+342 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "342 " + c1, append=T);
+}
+343 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "343 " + c1, append=T);
+}
+344 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "344 " + c1, append=T);
+}
+345 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "345 " + c1, append=T);
+}
+346 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "346 " + c1, append=T);
+}
+347 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "347 " + c1, append=T);
+}
+348 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "348 " + c1, append=T);
+}
+349 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "349 " + c1, append=T);
+}
+350 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "350 " + c1, append=T);
+}
+351 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "351 " + c1, append=T);
+}
+352 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "352 " + c1, append=T);
+}
+353 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "353 " + c1, append=T);
+}
+354 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "354 " + c1, append=T);
+}
+355 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "355 " + c1, append=T);
+}
+356 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "356 " + c1, append=T);
+}
+357 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "357 " + c1, append=T);
+}
+358 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "358 " + c1, append=T);
+}
+359 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "359 " + c1, append=T);
+}
+360 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "360 " + c1, append=T);
+}
+361 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "361 " + c1, append=T);
+}
+362 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "362 " + c1, append=T);
+}
+363 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "363 " + c1, append=T);
+}
+364 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "364 " + c1, append=T);
+}
+365 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "365 " + c1, append=T);
+}
+366 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "366 " + c1, append=T);
+}
+367 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "367 " + c1, append=T);
+}
+368 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "368 " + c1, append=T);
+}
+369 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "369 " + c1, append=T);
+}
+370 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "370 " + c1, append=T);
+}
+371 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "371 " + c1, append=T);
+}
+372 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "372 " + c1, append=T);
+}
+373 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "373 " + c1, append=T);
+}
+374 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "374 " + c1, append=T);
+}
+375 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "375 " + c1, append=T);
+}
+376 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "376 " + c1, append=T);
+}
+377 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "377 " + c1, append=T);
+}
+378 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "378 " + c1, append=T);
+}
+379 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "379 " + c1, append=T);
+}
+380 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "380 " + c1, append=T);
+}
+381 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "381 " + c1, append=T);
+}
+382 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "382 " + c1, append=T);
+}
+383 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "383 " + c1, append=T);
+}
+384 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "384 " + c1, append=T);
+}
+385 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "385 " + c1, append=T);
+}
+386 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "386 " + c1, append=T);
+}
+387 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "387 " + c1, append=T);
+}
+388 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "388 " + c1, append=T);
+}
+389 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "389 " + c1, append=T);
+}
+390 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "390 " + c1, append=T);
+}
+391 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "391 " + c1, append=T);
+}
+392 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "392 " + c1, append=T);
+}
+393 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "393 " + c1, append=T);
+}
+394 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "394 " + c1, append=T);
+}
+395 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "395 " + c1, append=T);
+}
+396 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "396 " + c1, append=T);
+}
+397 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "397 " + c1, append=T);
+}
+398 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "398 " + c1, append=T);
+}
+399 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "399 " + c1, append=T);
+}
+400 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "400 " + c1, append=T);
+}
+401 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "401 " + c1, append=T);
+}
+402 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "402 " + c1, append=T);
+}
+403 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "403 " + c1, append=T);
+}
+404 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "404 " + c1, append=T);
+}
+405 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "405 " + c1, append=T);
+}
+406 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "406 " + c1, append=T);
+}
+407 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "407 " + c1, append=T);
+}
+408 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "408 " + c1, append=T);
+}
+409 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "409 " + c1, append=T);
+}
+410 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "410 " + c1, append=T);
+}
+411 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "411 " + c1, append=T);
+}
+412 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "412 " + c1, append=T);
+}
+413 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "413 " + c1, append=T);
+}
+414 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "414 " + c1, append=T);
+}
+415 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "415 " + c1, append=T);
+}
+416 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "416 " + c1, append=T);
+}
+417 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "417 " + c1, append=T);
+}
+418 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "418 " + c1, append=T);
+}
+419 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "419 " + c1, append=T);
+}
+420 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "420 " + c1, append=T);
+}
+421 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "421 " + c1, append=T);
+}
+422 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "422 " + c1, append=T);
+}
+423 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "423 " + c1, append=T);
+}
+424 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "424 " + c1, append=T);
+}
+425 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "425 " + c1, append=T);
+}
+426 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "426 " + c1, append=T);
+}
+427 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "427 " + c1, append=T);
+}
+428 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "428 " + c1, append=T);
+}
+429 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "429 " + c1, append=T);
+}
+430 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "430 " + c1, append=T);
+}
+431 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "431 " + c1, append=T);
+}
+432 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "432 " + c1, append=T);
+}
+433 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "433 " + c1, append=T);
+}
+434 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "434 " + c1, append=T);
+}
+435 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "435 " + c1, append=T);
+}
+436 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "436 " + c1, append=T);
+}
+437 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "437 " + c1, append=T);
+}
+438 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "438 " + c1, append=T);
+}
+439 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "439 " + c1, append=T);
+}
+440 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "440 " + c1, append=T);
+}
+441 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "441 " + c1, append=T);
+}
+442 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "442 " + c1, append=T);
+}
+443 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "443 " + c1, append=T);
+}
+444 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "444 " + c1, append=T);
+}
+445 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "445 " + c1, append=T);
+}
+446 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "446 " + c1, append=T);
+}
+447 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "447 " + c1, append=T);
+}
+448 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "448 " + c1, append=T);
+}
+449 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "449 " + c1, append=T);
+}
+450 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "450 " + c1, append=T);
+}
+451 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "451 " + c1, append=T);
+}
+452 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "452 " + c1, append=T);
+}
+453 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "453 " + c1, append=T);
+}
+454 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "454 " + c1, append=T);
+}
+455 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "455 " + c1, append=T);
+}
+456 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "456 " + c1, append=T);
+}
+457 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "457 " + c1, append=T);
+}
+458 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "458 " + c1, append=T);
+}
+459 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "459 " + c1, append=T);
+}
+460 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "460 " + c1, append=T);
+}
+461 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "461 " + c1, append=T);
+}
+462 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "462 " + c1, append=T);
+}
+463 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "463 " + c1, append=T);
+}
+464 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "464 " + c1, append=T);
+}
+465 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "465 " + c1, append=T);
+}
+466 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "466 " + c1, append=T);
+}
+467 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "467 " + c1, append=T);
+}
+468 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "468 " + c1, append=T);
+}
+469 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "469 " + c1, append=T);
+}
+470 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "470 " + c1, append=T);
+}
+471 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "471 " + c1, append=T);
+}
+472 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "472 " + c1, append=T);
+}
+473 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "473 " + c1, append=T);
+}
+474 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "474 " + c1, append=T);
+}
+475 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "475 " + c1, append=T);
+}
+476 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "476 " + c1, append=T);
+}
+477 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "477 " + c1, append=T);
+}
+478 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "478 " + c1, append=T);
+}
+479 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "479 " + c1, append=T);
+}
+480 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "480 " + c1, append=T);
+}
+481 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "481 " + c1, append=T);
+}
+482 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "482 " + c1, append=T);
+}
+483 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "483 " + c1, append=T);
+}
+484 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "484 " + c1, append=T);
+}
+485 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "485 " + c1, append=T);
+}
+486 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "486 " + c1, append=T);
+}
+487 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "487 " + c1, append=T);
+}
+488 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "488 " + c1, append=T);
+}
+489 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "489 " + c1, append=T);
+}
+490 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "490 " + c1, append=T);
+}
+491 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "491 " + c1, append=T);
+}
+492 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "492 " + c1, append=T);
+}
+493 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "493 " + c1, append=T);
+}
+494 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "494 " + c1, append=T);
+}
+495 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "495 " + c1, append=T);
+}
+496 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "496 " + c1, append=T);
+}
+497 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "497 " + c1, append=T);
+}
+498 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "498 " + c1, append=T);
+}
+499 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "499 " + c1, append=T);
+}
+500 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "500 " + c1, append=T);
+}
+501 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "501 " + c1, append=T);
+}
+502 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "502 " + c1, append=T);
+}
+503 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "503 " + c1, append=T);
+}
+504 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "504 " + c1, append=T);
+}
+505 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "505 " + c1, append=T);
+}
+506 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "506 " + c1, append=T);
+}
+507 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "507 " + c1, append=T);
+}
+508 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "508 " + c1, append=T);
+}
+509 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "509 " + c1, append=T);
+}
+510 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "510 " + c1, append=T);
+}
+511 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "511 " + c1, append=T);
+}
+512 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "512 " + c1, append=T);
+}
+513 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "513 " + c1, append=T);
+}
+514 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "514 " + c1, append=T);
+}
+515 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "515 " + c1, append=T);
+}
+516 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "516 " + c1, append=T);
+}
+517 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "517 " + c1, append=T);
+}
+518 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "518 " + c1, append=T);
+}
+519 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "519 " + c1, append=T);
+}
+520 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "520 " + c1, append=T);
+}
+521 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "521 " + c1, append=T);
+}
+522 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "522 " + c1, append=T);
+}
+523 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "523 " + c1, append=T);
+}
+524 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "524 " + c1, append=T);
+}
+525 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "525 " + c1, append=T);
+}
+526 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "526 " + c1, append=T);
+}
+527 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "527 " + c1, append=T);
+}
+528 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "528 " + c1, append=T);
+}
+529 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "529 " + c1, append=T);
+}
+530 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "530 " + c1, append=T);
+}
+531 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "531 " + c1, append=T);
+}
+532 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "532 " + c1, append=T);
+}
+533 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "533 " + c1, append=T);
+}
+534 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "534 " + c1, append=T);
+}
+535 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "535 " + c1, append=T);
+}
+536 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "536 " + c1, append=T);
+}
+537 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "537 " + c1, append=T);
+}
+538 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "538 " + c1, append=T);
+}
+539 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "539 " + c1, append=T);
+}
+540 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "540 " + c1, append=T);
+}
+541 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "541 " + c1, append=T);
+}
+542 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "542 " + c1, append=T);
+}
+543 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "543 " + c1, append=T);
+}
+544 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "544 " + c1, append=T);
+}
+545 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "545 " + c1, append=T);
+}
+546 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "546 " + c1, append=T);
+}
+547 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "547 " + c1, append=T);
+}
+548 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "548 " + c1, append=T);
+}
+549 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "549 " + c1, append=T);
+}
+550 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "550 " + c1, append=T);
+}
+551 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "551 " + c1, append=T);
+}
+552 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "552 " + c1, append=T);
+}
+553 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "553 " + c1, append=T);
+}
+554 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "554 " + c1, append=T);
+}
+555 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "555 " + c1, append=T);
+}
+556 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "556 " + c1, append=T);
+}
+557 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "557 " + c1, append=T);
+}
+558 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "558 " + c1, append=T);
+}
+559 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "559 " + c1, append=T);
+}
+560 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "560 " + c1, append=T);
+}
+561 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "561 " + c1, append=T);
+}
+562 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "562 " + c1, append=T);
+}
+563 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "563 " + c1, append=T);
+}
+564 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "564 " + c1, append=T);
+}
+565 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "565 " + c1, append=T);
+}
+566 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "566 " + c1, append=T);
+}
+567 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "567 " + c1, append=T);
+}
+568 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "568 " + c1, append=T);
+}
+569 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "569 " + c1, append=T);
+}
+570 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "570 " + c1, append=T);
+}
+571 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "571 " + c1, append=T);
+}
+572 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "572 " + c1, append=T);
+}
+573 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "573 " + c1, append=T);
+}
+574 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "574 " + c1, append=T);
+}
+575 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "575 " + c1, append=T);
+}
+576 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "576 " + c1, append=T);
+}
+577 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "577 " + c1, append=T);
+}
+578 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "578 " + c1, append=T);
+}
+579 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "579 " + c1, append=T);
+}
+580 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "580 " + c1, append=T);
+}
+581 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "581 " + c1, append=T);
+}
+582 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "582 " + c1, append=T);
+}
+583 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "583 " + c1, append=T);
+}
+584 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "584 " + c1, append=T);
+}
+585 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "585 " + c1, append=T);
+}
+586 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "586 " + c1, append=T);
+}
+587 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "587 " + c1, append=T);
+}
+588 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "588 " + c1, append=T);
+}
+589 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "589 " + c1, append=T);
+}
+590 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "590 " + c1, append=T);
+}
+591 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "591 " + c1, append=T);
+}
+592 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "592 " + c1, append=T);
+}
+593 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "593 " + c1, append=T);
+}
+594 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "594 " + c1, append=T);
+}
+595 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "595 " + c1, append=T);
+}
+596 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "596 " + c1, append=T);
+}
+597 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "597 " + c1, append=T);
+}
+598 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "598 " + c1, append=T);
+}
+599 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "599 " + c1, append=T);
+}
+600 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "600 " + c1, append=T);
+}
+601 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "601 " + c1, append=T);
+}
+602 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "602 " + c1, append=T);
+}
+603 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "603 " + c1, append=T);
+}
+604 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "604 " + c1, append=T);
+}
+605 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "605 " + c1, append=T);
+}
+606 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "606 " + c1, append=T);
+}
+607 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "607 " + c1, append=T);
+}
+608 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "608 " + c1, append=T);
+}
+609 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "609 " + c1, append=T);
+}
+610 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "610 " + c1, append=T);
+}
+611 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "611 " + c1, append=T);
+}
+612 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "612 " + c1, append=T);
+}
+613 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "613 " + c1, append=T);
+}
+614 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "614 " + c1, append=T);
+}
+615 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "615 " + c1, append=T);
+}
+616 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "616 " + c1, append=T);
+}
+617 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "617 " + c1, append=T);
+}
+618 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "618 " + c1, append=T);
+}
+619 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "619 " + c1, append=T);
+}
+620 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "620 " + c1, append=T);
+}
+621 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "621 " + c1, append=T);
+}
+622 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "622 " + c1, append=T);
+}
+623 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "623 " + c1, append=T);
+}
+624 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "624 " + c1, append=T);
+}
+625 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "625 " + c1, append=T);
+}
+626 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "626 " + c1, append=T);
+}
+627 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "627 " + c1, append=T);
+}
+628 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "628 " + c1, append=T);
+}
+629 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "629 " + c1, append=T);
+}
+630 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "630 " + c1, append=T);
+}
+631 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "631 " + c1, append=T);
+}
+632 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "632 " + c1, append=T);
+}
+633 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "633 " + c1, append=T);
+}
+634 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "634 " + c1, append=T);
+}
+635 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "635 " + c1, append=T);
+}
+636 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "636 " + c1, append=T);
+}
+637 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "637 " + c1, append=T);
+}
+638 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "638 " + c1, append=T);
+}
+639 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "639 " + c1, append=T);
+}
+640 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "640 " + c1, append=T);
+}
+641 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "641 " + c1, append=T);
+}
+642 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "642 " + c1, append=T);
+}
+643 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "643 " + c1, append=T);
+}
+644 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "644 " + c1, append=T);
+}
+645 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "645 " + c1, append=T);
+}
+646 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "646 " + c1, append=T);
+}
+647 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "647 " + c1, append=T);
+}
+648 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "648 " + c1, append=T);
+}
+649 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "649 " + c1, append=T);
+}
+650 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "650 " + c1, append=T);
+}
+651 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "651 " + c1, append=T);
+}
+652 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "652 " + c1, append=T);
+}
+653 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "653 " + c1, append=T);
+}
+654 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "654 " + c1, append=T);
+}
+655 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "655 " + c1, append=T);
+}
+656 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "656 " + c1, append=T);
+}
+657 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "657 " + c1, append=T);
+}
+658 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "658 " + c1, append=T);
+}
+659 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "659 " + c1, append=T);
+}
+660 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "660 " + c1, append=T);
+}
+661 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "661 " + c1, append=T);
+}
+662 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "662 " + c1, append=T);
+}
+663 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "663 " + c1, append=T);
+}
+664 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "664 " + c1, append=T);
+}
+665 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "665 " + c1, append=T);
+}
+666 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "666 " + c1, append=T);
+}
+667 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "667 " + c1, append=T);
+}
+668 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "668 " + c1, append=T);
+}
+669 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "669 " + c1, append=T);
+}
+670 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "670 " + c1, append=T);
+}
+671 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "671 " + c1, append=T);
+}
+672 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "672 " + c1, append=T);
+}
+673 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "673 " + c1, append=T);
+}
+674 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "674 " + c1, append=T);
+}
+675 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "675 " + c1, append=T);
+}
+676 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "676 " + c1, append=T);
+}
+677 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "677 " + c1, append=T);
+}
+678 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "678 " + c1, append=T);
+}
+679 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "679 " + c1, append=T);
+}
+680 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "680 " + c1, append=T);
+}
+681 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "681 " + c1, append=T);
+}
+682 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "682 " + c1, append=T);
+}
+683 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "683 " + c1, append=T);
+}
+684 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "684 " + c1, append=T);
+}
+685 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "685 " + c1, append=T);
+}
+686 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "686 " + c1, append=T);
+}
+687 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "687 " + c1, append=T);
+}
+688 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "688 " + c1, append=T);
+}
+689 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "689 " + c1, append=T);
+}
+690 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "690 " + c1, append=T);
+}
+691 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "691 " + c1, append=T);
+}
+692 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "692 " + c1, append=T);
+}
+693 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "693 " + c1, append=T);
+}
+694 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "694 " + c1, append=T);
+}
+695 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "695 " + c1, append=T);
+}
+696 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "696 " + c1, append=T);
+}
+697 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "697 " + c1, append=T);
+}
+698 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "698 " + c1, append=T);
+}
+699 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "699 " + c1, append=T);
+}
+700 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "700 " + c1, append=T);
+}
+701 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "701 " + c1, append=T);
+}
+702 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "702 " + c1, append=T);
+}
+703 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "703 " + c1, append=T);
+}
+704 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "704 " + c1, append=T);
+}
+705 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "705 " + c1, append=T);
+}
+706 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "706 " + c1, append=T);
+}
+707 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "707 " + c1, append=T);
+}
+708 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "708 " + c1, append=T);
+}
+709 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "709 " + c1, append=T);
+}
+710 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "710 " + c1, append=T);
+}
+711 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "711 " + c1, append=T);
+}
+712 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "712 " + c1, append=T);
+}
+713 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "713 " + c1, append=T);
+}
+714 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "714 " + c1, append=T);
+}
+715 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "715 " + c1, append=T);
+}
+716 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "716 " + c1, append=T);
+}
+717 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "717 " + c1, append=T);
+}
+718 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "718 " + c1, append=T);
+}
+719 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "719 " + c1, append=T);
+}
+720 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "720 " + c1, append=T);
+}
+721 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "721 " + c1, append=T);
+}
+722 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "722 " + c1, append=T);
+}
+723 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "723 " + c1, append=T);
+}
+724 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "724 " + c1, append=T);
+}
+725 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "725 " + c1, append=T);
+}
+726 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "726 " + c1, append=T);
+}
+727 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "727 " + c1, append=T);
+}
+728 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "728 " + c1, append=T);
+}
+729 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "729 " + c1, append=T);
+}
+730 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "730 " + c1, append=T);
+}
+731 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "731 " + c1, append=T);
+}
+732 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "732 " + c1, append=T);
+}
+733 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "733 " + c1, append=T);
+}
+734 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "734 " + c1, append=T);
+}
+735 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "735 " + c1, append=T);
+}
+736 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "736 " + c1, append=T);
+}
+737 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "737 " + c1, append=T);
+}
+738 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "738 " + c1, append=T);
+}
+739 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "739 " + c1, append=T);
+}
+740 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "740 " + c1, append=T);
+}
+741 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "741 " + c1, append=T);
+}
+742 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "742 " + c1, append=T);
+}
+743 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "743 " + c1, append=T);
+}
+744 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "744 " + c1, append=T);
+}
+745 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "745 " + c1, append=T);
+}
+746 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "746 " + c1, append=T);
+}
+747 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "747 " + c1, append=T);
+}
+748 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "748 " + c1, append=T);
+}
+749 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "749 " + c1, append=T);
+}
+750 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "750 " + c1, append=T);
+}
+751 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "751 " + c1, append=T);
+}
+752 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "752 " + c1, append=T);
+}
+753 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "753 " + c1, append=T);
+}
+754 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "754 " + c1, append=T);
+}
+755 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "755 " + c1, append=T);
+}
+756 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "756 " + c1, append=T);
+}
+757 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "757 " + c1, append=T);
+}
+758 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "758 " + c1, append=T);
+}
+759 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "759 " + c1, append=T);
+}
+760 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "760 " + c1, append=T);
+}
+761 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "761 " + c1, append=T);
+}
+762 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "762 " + c1, append=T);
+}
+763 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "763 " + c1, append=T);
+}
+764 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "764 " + c1, append=T);
+}
+765 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "765 " + c1, append=T);
+}
+766 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "766 " + c1, append=T);
+}
+767 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "767 " + c1, append=T);
+}
+768 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "768 " + c1, append=T);
+}
+769 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "769 " + c1, append=T);
+}
+770 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "770 " + c1, append=T);
+}
+771 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "771 " + c1, append=T);
+}
+772 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "772 " + c1, append=T);
+}
+773 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "773 " + c1, append=T);
+}
+774 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "774 " + c1, append=T);
+}
+775 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "775 " + c1, append=T);
+}
+776 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "776 " + c1, append=T);
+}
+777 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "777 " + c1, append=T);
+}
+778 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "778 " + c1, append=T);
+}
+779 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "779 " + c1, append=T);
+}
+780 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "780 " + c1, append=T);
+}
+781 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "781 " + c1, append=T);
+}
+782 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "782 " + c1, append=T);
+}
+783 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "783 " + c1, append=T);
+}
+784 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "784 " + c1, append=T);
+}
+785 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "785 " + c1, append=T);
+}
+786 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "786 " + c1, append=T);
+}
+787 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "787 " + c1, append=T);
+}
+788 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "788 " + c1, append=T);
+}
+789 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "789 " + c1, append=T);
+}
+790 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "790 " + c1, append=T);
+}
+791 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "791 " + c1, append=T);
+}
+792 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "792 " + c1, append=T);
+}
+793 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "793 " + c1, append=T);
+}
+794 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "794 " + c1, append=T);
+}
+795 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "795 " + c1, append=T);
+}
+796 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "796 " + c1, append=T);
+}
+797 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "797 " + c1, append=T);
+}
+798 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "798 " + c1, append=T);
+}
+799 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "799 " + c1, append=T);
+}
+800 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "800 " + c1, append=T);
+}
+801 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "801 " + c1, append=T);
+}
+802 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "802 " + c1, append=T);
+}
+803 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "803 " + c1, append=T);
+}
+804 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "804 " + c1, append=T);
+}
+805 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "805 " + c1, append=T);
+}
+806 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "806 " + c1, append=T);
+}
+807 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "807 " + c1, append=T);
+}
+808 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "808 " + c1, append=T);
+}
+809 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "809 " + c1, append=T);
+}
+810 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "810 " + c1, append=T);
+}
+811 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "811 " + c1, append=T);
+}
+812 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "812 " + c1, append=T);
+}
+813 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "813 " + c1, append=T);
+}
+814 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "814 " + c1, append=T);
+}
+815 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "815 " + c1, append=T);
+}
+816 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "816 " + c1, append=T);
+}
+817 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "817 " + c1, append=T);
+}
+818 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "818 " + c1, append=T);
+}
+819 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "819 " + c1, append=T);
+}
+820 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "820 " + c1, append=T);
+}
+821 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "821 " + c1, append=T);
+}
+822 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "822 " + c1, append=T);
+}
+823 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "823 " + c1, append=T);
+}
+824 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "824 " + c1, append=T);
+}
+825 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "825 " + c1, append=T);
+}
+826 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "826 " + c1, append=T);
+}
+827 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "827 " + c1, append=T);
+}
+828 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "828 " + c1, append=T);
+}
+829 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "829 " + c1, append=T);
+}
+830 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "830 " + c1, append=T);
+}
+831 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "831 " + c1, append=T);
+}
+832 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "832 " + c1, append=T);
+}
+833 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "833 " + c1, append=T);
+}
+834 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "834 " + c1, append=T);
+}
+835 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "835 " + c1, append=T);
+}
+836 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "836 " + c1, append=T);
+}
+837 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "837 " + c1, append=T);
+}
+838 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "838 " + c1, append=T);
+}
+839 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "839 " + c1, append=T);
+}
+840 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "840 " + c1, append=T);
+}
+841 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "841 " + c1, append=T);
+}
+842 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "842 " + c1, append=T);
+}
+843 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "843 " + c1, append=T);
+}
+844 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "844 " + c1, append=T);
+}
+845 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "845 " + c1, append=T);
+}
+846 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "846 " + c1, append=T);
+}
+847 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "847 " + c1, append=T);
+}
+848 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "848 " + c1, append=T);
+}
+849 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "849 " + c1, append=T);
+}
+850 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "850 " + c1, append=T);
+}
+851 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "851 " + c1, append=T);
+}
+852 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "852 " + c1, append=T);
+}
+853 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "853 " + c1, append=T);
+}
+854 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "854 " + c1, append=T);
+}
+855 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "855 " + c1, append=T);
+}
+856 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "856 " + c1, append=T);
+}
+857 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "857 " + c1, append=T);
+}
+858 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "858 " + c1, append=T);
+}
+859 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "859 " + c1, append=T);
+}
+860 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "860 " + c1, append=T);
+}
+861 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "861 " + c1, append=T);
+}
+862 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "862 " + c1, append=T);
+}
+863 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "863 " + c1, append=T);
+}
+864 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "864 " + c1, append=T);
+}
+865 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "865 " + c1, append=T);
+}
+866 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "866 " + c1, append=T);
+}
+867 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "867 " + c1, append=T);
+}
+868 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "868 " + c1, append=T);
+}
+869 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "869 " + c1, append=T);
+}
+870 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "870 " + c1, append=T);
+}
+871 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "871 " + c1, append=T);
+}
+872 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "872 " + c1, append=T);
+}
+873 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "873 " + c1, append=T);
+}
+874 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "874 " + c1, append=T);
+}
+875 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "875 " + c1, append=T);
+}
+876 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "876 " + c1, append=T);
+}
+877 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "877 " + c1, append=T);
+}
+878 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "878 " + c1, append=T);
+}
+879 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "879 " + c1, append=T);
+}
+880 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "880 " + c1, append=T);
+}
+881 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "881 " + c1, append=T);
+}
+882 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "882 " + c1, append=T);
+}
+883 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "883 " + c1, append=T);
+}
+884 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "884 " + c1, append=T);
+}
+885 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "885 " + c1, append=T);
+}
+886 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "886 " + c1, append=T);
+}
+887 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "887 " + c1, append=T);
+}
+888 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "888 " + c1, append=T);
+}
+889 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "889 " + c1, append=T);
+}
+890 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "890 " + c1, append=T);
+}
+891 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "891 " + c1, append=T);
+}
+892 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "892 " + c1, append=T);
+}
+893 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "893 " + c1, append=T);
+}
+894 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "894 " + c1, append=T);
+}
+895 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "895 " + c1, append=T);
+}
+896 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "896 " + c1, append=T);
+}
+897 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "897 " + c1, append=T);
+}
+898 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "898 " + c1, append=T);
+}
+899 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "899 " + c1, append=T);
+}
+900 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "900 " + c1, append=T);
+}
+901 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "901 " + c1, append=T);
+}
+902 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "902 " + c1, append=T);
+}
+903 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "903 " + c1, append=T);
+}
+904 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "904 " + c1, append=T);
+}
+905 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "905 " + c1, append=T);
+}
+906 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "906 " + c1, append=T);
+}
+907 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "907 " + c1, append=T);
+}
+908 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "908 " + c1, append=T);
+}
+909 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "909 " + c1, append=T);
+}
+910 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "910 " + c1, append=T);
+}
+911 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "911 " + c1, append=T);
+}
+912 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "912 " + c1, append=T);
+}
+913 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "913 " + c1, append=T);
+}
+914 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "914 " + c1, append=T);
+}
+915 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "915 " + c1, append=T);
+}
+916 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "916 " + c1, append=T);
+}
+917 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "917 " + c1, append=T);
+}
+918 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "918 " + c1, append=T);
+}
+919 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "919 " + c1, append=T);
+}
+920 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "920 " + c1, append=T);
+}
+921 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "921 " + c1, append=T);
+}
+922 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "922 " + c1, append=T);
+}
+923 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "923 " + c1, append=T);
+}
+924 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "924 " + c1, append=T);
+}
+925 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "925 " + c1, append=T);
+}
+926 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "926 " + c1, append=T);
+}
+927 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "927 " + c1, append=T);
+}
+928 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "928 " + c1, append=T);
+}
+929 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "929 " + c1, append=T);
+}
+930 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "930 " + c1, append=T);
+}
+931 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "931 " + c1, append=T);
+}
+932 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "932 " + c1, append=T);
+}
+933 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "933 " + c1, append=T);
+}
+934 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "934 " + c1, append=T);
+}
+935 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "935 " + c1, append=T);
+}
+936 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "936 " + c1, append=T);
+}
+937 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "937 " + c1, append=T);
+}
+938 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "938 " + c1, append=T);
+}
+939 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "939 " + c1, append=T);
+}
+940 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "940 " + c1, append=T);
+}
+941 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "941 " + c1, append=T);
+}
+942 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "942 " + c1, append=T);
+}
+943 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "943 " + c1, append=T);
+}
+944 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "944 " + c1, append=T);
+}
+945 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "945 " + c1, append=T);
+}
+946 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "946 " + c1, append=T);
+}
+947 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "947 " + c1, append=T);
+}
+948 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "948 " + c1, append=T);
+}
+949 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "949 " + c1, append=T);
+}
+950 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "950 " + c1, append=T);
+}
+951 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "951 " + c1, append=T);
+}
+952 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "952 " + c1, append=T);
+}
+953 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "953 " + c1, append=T);
+}
+954 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "954 " + c1, append=T);
+}
+955 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "955 " + c1, append=T);
+}
+956 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "956 " + c1, append=T);
+}
+957 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "957 " + c1, append=T);
+}
+958 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "958 " + c1, append=T);
+}
+959 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "959 " + c1, append=T);
+}
+960 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "960 " + c1, append=T);
+}
+961 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "961 " + c1, append=T);
+}
+962 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "962 " + c1, append=T);
+}
+963 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "963 " + c1, append=T);
+}
+964 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "964 " + c1, append=T);
+}
+965 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "965 " + c1, append=T);
+}
+966 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "966 " + c1, append=T);
+}
+967 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "967 " + c1, append=T);
+}
+968 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "968 " + c1, append=T);
+}
+969 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "969 " + c1, append=T);
+}
+970 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "970 " + c1, append=T);
+}
+971 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "971 " + c1, append=T);
+}
+972 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "972 " + c1, append=T);
+}
+973 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "973 " + c1, append=T);
+}
+974 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "974 " + c1, append=T);
+}
+975 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "975 " + c1, append=T);
+}
+976 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "976 " + c1, append=T);
+}
+977 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "977 " + c1, append=T);
+}
+978 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "978 " + c1, append=T);
+}
+979 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "979 " + c1, append=T);
+}
+980 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "980 " + c1, append=T);
+}
+981 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "981 " + c1, append=T);
+}
+982 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "982 " + c1, append=T);
+}
+983 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "983 " + c1, append=T);
+}
+984 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "984 " + c1, append=T);
+}
+985 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "985 " + c1, append=T);
+}
+986 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "986 " + c1, append=T);
+}
+987 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "987 " + c1, append=T);
+}
+988 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "988 " + c1, append=T);
+}
+989 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "989 " + c1, append=T);
+}
+990 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "990 " + c1, append=T);
+}
+991 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "991 " + c1, append=T);
+}
+992 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "992 " + c1, append=T);
+}
+993 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "993 " + c1, append=T);
+}
+994 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "994 " + c1, append=T);
+}
+995 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "995 " + c1, append=T);
+}
+996 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "996 " + c1, append=T);
+}
+997 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "997 " + c1, append=T);
+}
+998 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "998 " + c1, append=T);
+}
+999 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "999 " + c1, append=T);
+}
+1000 late() {
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+writeFile("sims/sim0.out", "1000 " + c1, append=T);
+}
