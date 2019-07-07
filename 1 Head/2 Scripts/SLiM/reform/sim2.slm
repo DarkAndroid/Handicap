@@ -1,0 +1,21 @@
+initialize() {
+	initializeMutationRate(c(1e-05, 1e-07), c(50000, 99999));
+	initializeMutationType("m1", 0.5, "f", -1e-02);
+    initializeMutationType("m2", 0.5, "f", -10);
+	m1.convertToSubstitution = F;
+	m2.convertToSubstitution = F;
+    initializeGenomicElementType("g1", m1, 1.0);
+    initializeGenomicElementType("g2", m2, 1.0);
+    initializeGenomicElement(g1, 0, 50000);
+    initializeGenomicElement(g2, 50001, 99999);
+	initializeRecombinationRate(1e-8);
+}1 {	sim.addSubpop("p1", 10000);
+}1000 late() {sim.outputFixedMutations();} 
+1: {if (sim.generation % 100 == 0) { 
+subpop = sim.subpopulations[sim.subpopulations.id == 1];
+inds = subpop.individuals;
+c1 = sum(inds.countOfMutationsOfType(m1));
+c2 = sum(inds.countOfMutationsOfType(m2));
+writeFile("sims/sim2.out", "" +sim.generation+ " " + c1+ " " + c2, append=T);
+sim.outputFull("sim2/sim2_"+sim.generation+".out"); }
+}
