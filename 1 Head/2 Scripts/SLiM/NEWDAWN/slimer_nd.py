@@ -49,8 +49,8 @@ for p in pszs:
                     #// set up a simple neutral simulation
                     reps.write("initialize() {\n")
                     #reps.write("defineConstant(\"H\", %s); \n" % (bans.get(m)) )
-                    reps.write("	initializeMutationRate(c(%s, %s), c(50000, 99999));\n" % (m,(bans.get(m)) ) )
-                    #reps.write("    initializeMutationRate(%s);\n" % (m) )	
+                    #reps.write("	initializeMutationRate(c(%s, %s), c(50000, 99999));\n" % (m,(bans.get(m)) ) )
+                    reps.write("    initializeMutationRate(%s);\n" % (m) )	
                     #// m1 mutation type: neutral
                     reps.write("	initializeMutationType(\"m1\", 0.5, \"f\", -%s);\n" % e) # normal ?  itializeMutationType("m2", 0.5, "n", 0.0, 1.0);   // QTL
 
@@ -59,10 +59,10 @@ for p in pszs:
                     # reps.write("	initializeMutationType(\"m2\", 0.4, \"s\", scriptForHandicap);\n")
                     
 
-                    reps.write("    initializeMutationType(\"m2\", 0.5, \"f\", -%s);\n" % (hans.get(e)) )  
+                    #reps.write("    initializeMutationType(\"m2\", 0.5, \"f\", -%s);\n" % (hans.get(e)) )  
 
 
-                    #reps.write("	initializeMutationType(\"m2\", 0.5, \"f\", -%s);\n" % e*100) # normal ?  itializeMutationType("m2", 0.5, "n", 0.0, 1.0);   // QTL
+                    reps.write("	initializeMutationType(\"m2\", 0.5, \"f\", -%s);\n" % e) # normal ?  itializeMutationType("m2", 0.5, "n", 0.0, 1.0);   // QTL
 
 				
 				    #// Off fixation of mutations
@@ -72,15 +72,15 @@ for p in pszs:
                     #// g1 genomic element type: uses m1 for all mutations
                     
 
-                    #reps.write("	initializeGenomicElementType(\"g1\", c(m1,m2), c(1.0,1.0));\n")
+                    reps.write("	initializeGenomicElementType(\"g1\", c(m1,m2), c(70.0,30.0));\n")
 
-                    reps.write("    initializeGenomicElementType(\"g1\", m1, 1.0);\n")
-                    reps.write("    initializeGenomicElementType(\"g2\", m2, 1.0);\n")
+                    # reps.write("    initializeGenomicElementType(\"g1\", m1, 1.0);\n")
+                    # reps.write("    initializeGenomicElementType(\"g2\", m2, 1.0);\n")
 
                     #// uniform chromosome of length 100 kb with uniform recombination
-                    #reps.write("	initializeGenomicElement(g1, 0, %s);\n" % g)
-                    reps.write("    initializeGenomicElement(g1, 0, 50000);\n")
-                    reps.write("    initializeGenomicElement(g2, 50001, 99999);\n")
+                    reps.write("	initializeGenomicElement(g1, 0, %s);\n" % g)
+                    # reps.write("    initializeGenomicElement(g1, 0, 50000);\n")
+                    # reps.write("    initializeGenomicElement(g2, 50001, 99999);\n")
 
 
                     reps.write("	initializeRecombinationRate(1e-8);\n")
@@ -99,7 +99,7 @@ for p in pszs:
                     #reps.write("1000 late() { sim.outputFull(\"/tmp/slim_\" + simID + \".txt\"); }\n")
                     #reps.write("1000 late() { sim.outputFull(\"sim%s.out\"); }\n" % n)
 
-                    reps.write("1000 late() {sim.outputFixedMutations();} \n")
+                    
                     
 
                         #reps.write("%s late() { sim.outputFull(\"sim%s/sim%s_%s.out\"); }\n" % (i*100,n,n,i*100))
@@ -124,7 +124,8 @@ for p in pszs:
 
                     reps.write("}\n")
 
-
+                    reps.write("1000 late() {sim.outputFixedMutations();} \n")
+                    
                     reps.close()
 
 
@@ -138,7 +139,7 @@ for p in pszs:
 
                     # LINUX CODE
                     #os.system('./slim sim%s.slm' % n)
-                    os.system('/home/jester/VIC/build/./slim sim%s.slm' % n)
+                    os.system('/media/jester/9db6969f-fd53-4f88-938e-66b73c98fab2/jester/VIC/build/./slim sim%s.slm' % n)
 
 
 
